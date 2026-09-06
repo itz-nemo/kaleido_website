@@ -1,0 +1,90 @@
+{
+  "category": "Hygiene Supplies",
+  "categorySlug": "hygiene-supplies",
+  "subcategory": "Personal Hygiene",
+  "subcategorySlug": "personal-hygiene",
+  "leaf": "Hand Sanitizers",
+  "leafSlug": "hand-sanitizers",
+  "products": [
+    {
+      "id": "f1AZ7a3wZi",
+      "slug": "compact-hand-sanitizer-option-1-1",
+      "name": "Compact Hand Sanitizer \u2014 Option 1",
+      "price": 399,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-3/700/700"
+      ],
+      "description": "The Compact Hand Sanitizer \u2014 Option 1 is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Hand Sanitizers",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "KzGfN1Ssin",
+      "slug": "elite-hand-sanitizer-option-2-2",
+      "name": "Elite Hand Sanitizer \u2014 Option 2",
+      "price": 695,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-3/700/700"
+      ],
+      "description": "The Elite Hand Sanitizer \u2014 Option 2 is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Hand Sanitizers",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "gsCh9tEQ1e",
+      "slug": "classic-hand-sanitizer-option-3-3",
+      "name": "Classic Hand Sanitizer \u2014 Option 3",
+      "price": 1194,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-3/700/700"
+      ],
+      "description": "The Classic Hand Sanitizer \u2014 Option 3 is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Hand Sanitizers",
+        "Material": "ABS Plastic",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "aU6NtBxV4U",
+      "slug": "premium-hand-sanitizer-option-4-4",
+      "name": "Premium Hand Sanitizer \u2014 Option 4",
+      "price": 3660,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-3/700/700"
+      ],
+      "description": "The Premium Hand Sanitizer \u2014 Option 4 is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Hand Sanitizers",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

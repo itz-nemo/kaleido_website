@@ -1,0 +1,90 @@
+{
+  "category": "Strategic Sourcing",
+  "categorySlug": "strategic-sourcing",
+  "subcategory": "Special Requirements",
+  "subcategorySlug": "special-requirements",
+  "leaf": "Project-Based Procurement",
+  "leafSlug": "project-based-procurement",
+  "products": [
+    {
+      "id": "XR6zRWq3KO",
+      "slug": "signature-project-based-procurement-option-1-1",
+      "name": "Signature Project-Based Procurement \u2014 Option 1",
+      "price": 157,
+      "images": [
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-0-0/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-0-1/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-0-2/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-0-3/700/700"
+      ],
+      "description": "The Signature Project-Based Procurement \u2014 Option 1 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Project-Based Procurement",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "v8rcXmbZUC",
+      "slug": "eco-friendly-project-based-procurement-option-2-2",
+      "name": "Eco-Friendly Project-Based Procurement \u2014 Option 2",
+      "price": 971,
+      "images": [
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-1-0/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-1-1/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-1-2/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-1-3/700/700"
+      ],
+      "description": "The Eco-Friendly Project-Based Procurement \u2014 Option 2 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Project-Based Procurement",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "474jUm8G58",
+      "slug": "premium-project-based-procurement-option-3-3",
+      "name": "Premium Project-Based Procurement \u2014 Option 3",
+      "price": 2140,
+      "images": [
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-2-0/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-2-1/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-2-2/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-2-3/700/700"
+      ],
+      "description": "The Premium Project-Based Procurement \u2014 Option 3 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Project-Based Procurement",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "1HgB1UrTXI",
+      "slug": "executive-project-based-procurement-option-4-4",
+      "name": "Executive Project-Based Procurement \u2014 Option 4",
+      "price": 2770,
+      "images": [
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-3-0/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-3-1/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-3-2/700/700",
+        "https://picsum.photos/seed/strategic-sourcing-project-based-procurement-3-3/700/700"
+      ],
+      "description": "The Executive Project-Based Procurement \u2014 Option 4 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Project-Based Procurement",
+        "Material": "ABS Plastic",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

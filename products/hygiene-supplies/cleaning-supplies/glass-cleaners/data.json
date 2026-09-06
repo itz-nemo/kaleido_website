@@ -1,0 +1,90 @@
+{
+  "category": "Hygiene Supplies",
+  "categorySlug": "hygiene-supplies",
+  "subcategory": "Cleaning Supplies",
+  "subcategorySlug": "cleaning-supplies",
+  "leaf": "Glass Cleaners",
+  "leafSlug": "glass-cleaners",
+  "products": [
+    {
+      "id": "phzGKFXF73",
+      "slug": "executive-glass-cleaner-option-1-1",
+      "name": "Executive Glass Cleaner \u2014 Option 1",
+      "price": 363,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-0-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-0-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-0-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-0-3/700/700"
+      ],
+      "description": "The Executive Glass Cleaner \u2014 Option 1 is a popular pick for cleaning supplies programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Glass Cleaners",
+        "Material": "Bamboo & Wood",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "Kf-EDpsLXq",
+      "slug": "deluxe-glass-cleaner-option-2-2",
+      "name": "Deluxe Glass Cleaner \u2014 Option 2",
+      "price": 950,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-1-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-1-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-1-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-1-3/700/700"
+      ],
+      "description": "The Deluxe Glass Cleaner \u2014 Option 2 is a popular pick for cleaning supplies programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Glass Cleaners",
+        "Material": "ABS Plastic",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "WFR5oSV-h6",
+      "slug": "elite-glass-cleaner-option-3-3",
+      "name": "Elite Glass Cleaner \u2014 Option 3",
+      "price": 1568,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-2-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-2-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-2-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-2-3/700/700"
+      ],
+      "description": "The Elite Glass Cleaner \u2014 Option 3 is a popular pick for cleaning supplies programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Glass Cleaners",
+        "Material": "Cotton Blend",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "G9bORt66kn",
+      "slug": "classic-glass-cleaner-option-4-4",
+      "name": "Classic Glass Cleaner \u2014 Option 4",
+      "price": 4639,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-3-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-3-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-3-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-glass-cleaners-3-3/700/700"
+      ],
+      "description": "The Classic Glass Cleaner \u2014 Option 4 is a popular pick for cleaning supplies programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Glass Cleaners",
+        "Material": "Cotton Blend",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

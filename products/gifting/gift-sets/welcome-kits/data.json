@@ -1,0 +1,90 @@
+{
+  "category": "Corporate Gifting",
+  "categorySlug": "gifting",
+  "subcategory": "Gift Sets",
+  "subcategorySlug": "gift-sets",
+  "leaf": "Welcome Kits",
+  "leafSlug": "welcome-kits",
+  "products": [
+    {
+      "id": "oipFRgTb6n",
+      "slug": "executive-welcome-kit-option-1-1",
+      "name": "Executive Welcome Kit \u2014 Option 1",
+      "price": 388,
+      "images": [
+        "https://picsum.photos/seed/gifting-welcome-kits-0-0/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-0-1/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-0-2/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-0-3/700/700"
+      ],
+      "description": "The Executive Welcome Kit \u2014 Option 1 is a popular pick for gift sets programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Welcome Kits",
+        "Material": "Cotton Blend",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "opy6JTheQq",
+      "slug": "eco-friendly-welcome-kit-option-2-2",
+      "name": "Eco-Friendly Welcome Kit \u2014 Option 2",
+      "price": 947,
+      "images": [
+        "https://picsum.photos/seed/gifting-welcome-kits-1-0/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-1-1/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-1-2/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-1-3/700/700"
+      ],
+      "description": "The Eco-Friendly Welcome Kit \u2014 Option 2 is a popular pick for gift sets programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Welcome Kits",
+        "Material": "Bamboo & Wood",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "5X2tnIBJo3",
+      "slug": "elite-welcome-kit-option-3-3",
+      "name": "Elite Welcome Kit \u2014 Option 3",
+      "price": 2287,
+      "images": [
+        "https://picsum.photos/seed/gifting-welcome-kits-2-0/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-2-1/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-2-2/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-2-3/700/700"
+      ],
+      "description": "The Elite Welcome Kit \u2014 Option 3 is a popular pick for gift sets programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Welcome Kits",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "mvYNeYMw6k",
+      "slug": "eco-friendly-welcome-kit-option-4-4",
+      "name": "Eco-Friendly Welcome Kit \u2014 Option 4",
+      "price": 3849,
+      "images": [
+        "https://picsum.photos/seed/gifting-welcome-kits-3-0/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-3-1/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-3-2/700/700",
+        "https://picsum.photos/seed/gifting-welcome-kits-3-3/700/700"
+      ],
+      "description": "The Eco-Friendly Welcome Kit \u2014 Option 4 is a popular pick for gift sets programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Welcome Kits",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

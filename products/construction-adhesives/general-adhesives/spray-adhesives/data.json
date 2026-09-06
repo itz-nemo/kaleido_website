@@ -1,0 +1,90 @@
+{
+  "category": "Construction Adhesives",
+  "categorySlug": "construction-adhesives",
+  "subcategory": "General Adhesives",
+  "subcategorySlug": "general-adhesives",
+  "leaf": "Spray Adhesives",
+  "leafSlug": "spray-adhesives",
+  "products": [
+    {
+      "id": "hmbh6cUvDt",
+      "slug": "everyday-spray-adhesive-option-1-1",
+      "name": "Everyday Spray Adhesive \u2014 Option 1",
+      "price": 394,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-0-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-0-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-0-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-0-3/700/700"
+      ],
+      "description": "The Everyday Spray Adhesive \u2014 Option 1 is a popular pick for general adhesives programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Spray Adhesives",
+        "Material": "Food-Grade Silicone",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "BB_xvHjhI9",
+      "slug": "eco-friendly-spray-adhesive-option-2-2",
+      "name": "Eco-Friendly Spray Adhesive \u2014 Option 2",
+      "price": 526,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-1-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-1-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-1-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-1-3/700/700"
+      ],
+      "description": "The Eco-Friendly Spray Adhesive \u2014 Option 2 is a popular pick for general adhesives programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Spray Adhesives",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "dRVlg5iTkJ",
+      "slug": "premium-spray-adhesive-option-3-3",
+      "name": "Premium Spray Adhesive \u2014 Option 3",
+      "price": 2376,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-2-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-2-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-2-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-2-3/700/700"
+      ],
+      "description": "The Premium Spray Adhesive \u2014 Option 3 is a popular pick for general adhesives programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Spray Adhesives",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "fz7Pnhnvxf",
+      "slug": "classic-spray-adhesive-option-4-4",
+      "name": "Classic Spray Adhesive \u2014 Option 4",
+      "price": 2989,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-3-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-3-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-3-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-spray-adhesives-3-3/700/700"
+      ],
+      "description": "The Classic Spray Adhesive \u2014 Option 4 is a popular pick for general adhesives programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Spray Adhesives",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

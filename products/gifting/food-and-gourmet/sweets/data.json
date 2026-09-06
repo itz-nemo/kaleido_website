@@ -1,0 +1,90 @@
+{
+  "category": "Corporate Gifting",
+  "categorySlug": "gifting",
+  "subcategory": "Food & Gourmet",
+  "subcategorySlug": "food-and-gourmet",
+  "leaf": "Sweets",
+  "leafSlug": "sweets",
+  "products": [
+    {
+      "id": "7T9CavyjkL",
+      "slug": "deluxe-sweet-option-1-1",
+      "name": "Deluxe Sweet \u2014 Option 1",
+      "price": 387,
+      "images": [
+        "https://picsum.photos/seed/gifting-sweets-0-0/700/700",
+        "https://picsum.photos/seed/gifting-sweets-0-1/700/700",
+        "https://picsum.photos/seed/gifting-sweets-0-2/700/700",
+        "https://picsum.photos/seed/gifting-sweets-0-3/700/700"
+      ],
+      "description": "The Deluxe Sweet \u2014 Option 1 is a popular pick for food & gourmet programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Sweets",
+        "Material": "Bamboo & Wood",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "vfGc87meFC",
+      "slug": "modern-sweet-option-2-2",
+      "name": "Modern Sweet \u2014 Option 2",
+      "price": 626,
+      "images": [
+        "https://picsum.photos/seed/gifting-sweets-1-0/700/700",
+        "https://picsum.photos/seed/gifting-sweets-1-1/700/700",
+        "https://picsum.photos/seed/gifting-sweets-1-2/700/700",
+        "https://picsum.photos/seed/gifting-sweets-1-3/700/700"
+      ],
+      "description": "The Modern Sweet \u2014 Option 2 is a popular pick for food & gourmet programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Sweets",
+        "Material": "Bamboo & Wood",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "WQVBWPM3P-",
+      "slug": "signature-sweet-option-3-3",
+      "name": "Signature Sweet \u2014 Option 3",
+      "price": 1701,
+      "images": [
+        "https://picsum.photos/seed/gifting-sweets-2-0/700/700",
+        "https://picsum.photos/seed/gifting-sweets-2-1/700/700",
+        "https://picsum.photos/seed/gifting-sweets-2-2/700/700",
+        "https://picsum.photos/seed/gifting-sweets-2-3/700/700"
+      ],
+      "description": "The Signature Sweet \u2014 Option 3 is a popular pick for food & gourmet programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Sweets",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "TBi1CD4F_h",
+      "slug": "eco-friendly-sweet-option-4-4",
+      "name": "Eco-Friendly Sweet \u2014 Option 4",
+      "price": 3608,
+      "images": [
+        "https://picsum.photos/seed/gifting-sweets-3-0/700/700",
+        "https://picsum.photos/seed/gifting-sweets-3-1/700/700",
+        "https://picsum.photos/seed/gifting-sweets-3-2/700/700",
+        "https://picsum.photos/seed/gifting-sweets-3-3/700/700"
+      ],
+      "description": "The Eco-Friendly Sweet \u2014 Option 4 is a popular pick for food & gourmet programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Sweets",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

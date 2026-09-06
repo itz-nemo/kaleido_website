@@ -1,0 +1,90 @@
+{
+  "category": "Construction Adhesives",
+  "categorySlug": "construction-adhesives",
+  "subcategory": "Waterproofing",
+  "subcategorySlug": "waterproofing",
+  "leaf": "Crack Fillers",
+  "leafSlug": "crack-fillers",
+  "products": [
+    {
+      "id": "kPmvK9lc1N",
+      "slug": "compact-crack-filler-option-1-1",
+      "name": "Compact Crack Filler \u2014 Option 1",
+      "price": 271,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-0-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-0-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-0-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-0-3/700/700"
+      ],
+      "description": "The Compact Crack Filler \u2014 Option 1 is a popular pick for waterproofing programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Crack Fillers",
+        "Material": "Bamboo & Wood",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "BN-Jl_B77Q",
+      "slug": "compact-crack-filler-option-2-2",
+      "name": "Compact Crack Filler \u2014 Option 2",
+      "price": 582,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-1-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-1-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-1-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-1-3/700/700"
+      ],
+      "description": "The Compact Crack Filler \u2014 Option 2 is a popular pick for waterproofing programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Crack Fillers",
+        "Material": "Bamboo & Wood",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "dp9SXc_6v8",
+      "slug": "deluxe-crack-filler-option-3-3",
+      "name": "Deluxe Crack Filler \u2014 Option 3",
+      "price": 2348,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-2-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-2-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-2-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-2-3/700/700"
+      ],
+      "description": "The Deluxe Crack Filler \u2014 Option 3 is a popular pick for waterproofing programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Crack Fillers",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "fL75H5102n",
+      "slug": "modern-crack-filler-option-4-4",
+      "name": "Modern Crack Filler \u2014 Option 4",
+      "price": 3109,
+      "images": [
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-3-0/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-3-1/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-3-2/700/700",
+        "https://picsum.photos/seed/construction-adhesives-crack-fillers-3-3/700/700"
+      ],
+      "description": "The Modern Crack Filler \u2014 Option 4 is a popular pick for waterproofing programs and everyday construction adhesives gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Crack Fillers",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

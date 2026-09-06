@@ -1,0 +1,90 @@
+{
+  "category": "HORECA",
+  "categorySlug": "horeca",
+  "subcategory": "Food Storage",
+  "subcategorySlug": "food-storage",
+  "leaf": "Storage Containers",
+  "leafSlug": "storage-containers",
+  "products": [
+    {
+      "id": "qExtcVN6a_",
+      "slug": "compact-storage-container-option-1-1",
+      "name": "Compact Storage Container \u2014 Option 1",
+      "price": 362,
+      "images": [
+        "https://picsum.photos/seed/horeca-storage-containers-0-0/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-0-1/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-0-2/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-0-3/700/700"
+      ],
+      "description": "The Compact Storage Container \u2014 Option 1 is a popular pick for food storage programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Storage Containers",
+        "Material": "Food-Grade Silicone",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "NHzpTS7V5Q",
+      "slug": "premium-storage-container-option-2-2",
+      "name": "Premium Storage Container \u2014 Option 2",
+      "price": 952,
+      "images": [
+        "https://picsum.photos/seed/horeca-storage-containers-1-0/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-1-1/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-1-2/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-1-3/700/700"
+      ],
+      "description": "The Premium Storage Container \u2014 Option 2 is a popular pick for food storage programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Storage Containers",
+        "Material": "Cotton Blend",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "N4LYTcBlYZ",
+      "slug": "everyday-storage-container-option-3-3",
+      "name": "Everyday Storage Container \u2014 Option 3",
+      "price": 1335,
+      "images": [
+        "https://picsum.photos/seed/horeca-storage-containers-2-0/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-2-1/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-2-2/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-2-3/700/700"
+      ],
+      "description": "The Everyday Storage Container \u2014 Option 3 is a popular pick for food storage programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Storage Containers",
+        "Material": "Cotton Blend",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "xitRoBEi69",
+      "slug": "essential-storage-container-option-4-4",
+      "name": "Essential Storage Container \u2014 Option 4",
+      "price": 4234,
+      "images": [
+        "https://picsum.photos/seed/horeca-storage-containers-3-0/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-3-1/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-3-2/700/700",
+        "https://picsum.photos/seed/horeca-storage-containers-3-3/700/700"
+      ],
+      "description": "The Essential Storage Container \u2014 Option 4 is a popular pick for food storage programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Storage Containers",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "category": "HORECA",
+  "categorySlug": "horeca",
+  "subcategory": "Hospitality Essentials",
+  "subcategorySlug": "hospitality-essentials",
+  "leaf": "Room Accessories",
+  "leafSlug": "room-accessories",
+  "products": [
+    {
+      "id": "UeGAd64_bM",
+      "slug": "everyday-room-accessorie-option-1-1",
+      "name": "Everyday Room Accessorie \u2014 Option 1",
+      "price": 143,
+      "images": [
+        "https://picsum.photos/seed/horeca-room-accessories-0-0/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-0-1/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-0-2/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-0-3/700/700"
+      ],
+      "description": "The Everyday Room Accessorie \u2014 Option 1 is a popular pick for hospitality essentials programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Room Accessories",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "rF1s1dkPpK",
+      "slug": "premium-room-accessorie-option-2-2",
+      "name": "Premium Room Accessorie \u2014 Option 2",
+      "price": 608,
+      "images": [
+        "https://picsum.photos/seed/horeca-room-accessories-1-0/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-1-1/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-1-2/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-1-3/700/700"
+      ],
+      "description": "The Premium Room Accessorie \u2014 Option 2 is a popular pick for hospitality essentials programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Room Accessories",
+        "Material": "Bamboo & Wood",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "3lxpakYoI8",
+      "slug": "compact-room-accessorie-option-3-3",
+      "name": "Compact Room Accessorie \u2014 Option 3",
+      "price": 1011,
+      "images": [
+        "https://picsum.photos/seed/horeca-room-accessories-2-0/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-2-1/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-2-2/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-2-3/700/700"
+      ],
+      "description": "The Compact Room Accessorie \u2014 Option 3 is a popular pick for hospitality essentials programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Room Accessories",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "5ocNp_7498",
+      "slug": "essential-room-accessorie-option-4-4",
+      "name": "Essential Room Accessorie \u2014 Option 4",
+      "price": 3490,
+      "images": [
+        "https://picsum.photos/seed/horeca-room-accessories-3-0/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-3-1/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-3-2/700/700",
+        "https://picsum.photos/seed/horeca-room-accessories-3-3/700/700"
+      ],
+      "description": "The Essential Room Accessorie \u2014 Option 4 is a popular pick for hospitality essentials programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Room Accessories",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

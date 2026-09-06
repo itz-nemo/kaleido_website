@@ -1,0 +1,90 @@
+{
+  "category": "Hygiene Supplies",
+  "categorySlug": "hygiene-supplies",
+  "subcategory": "Personal Protection",
+  "subcategorySlug": "personal-protection",
+  "leaf": "Shoe Covers",
+  "leafSlug": "shoe-covers",
+  "products": [
+    {
+      "id": "_15cIlUchN",
+      "slug": "deluxe-shoe-cover-option-1-1",
+      "name": "Deluxe Shoe Cover \u2014 Option 1",
+      "price": 183,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-0-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-0-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-0-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-0-3/700/700"
+      ],
+      "description": "The Deluxe Shoe Cover \u2014 Option 1 is a popular pick for personal protection programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Shoe Covers",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "EekcBTOb1v",
+      "slug": "essential-shoe-cover-option-2-2",
+      "name": "Essential Shoe Cover \u2014 Option 2",
+      "price": 957,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-1-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-1-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-1-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-1-3/700/700"
+      ],
+      "description": "The Essential Shoe Cover \u2014 Option 2 is a popular pick for personal protection programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Shoe Covers",
+        "Material": "ABS Plastic",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "YKsIHfkSm7",
+      "slug": "everyday-shoe-cover-option-3-3",
+      "name": "Everyday Shoe Cover \u2014 Option 3",
+      "price": 1921,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-2-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-2-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-2-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-2-3/700/700"
+      ],
+      "description": "The Everyday Shoe Cover \u2014 Option 3 is a popular pick for personal protection programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Shoe Covers",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "TCbQkK6hrF",
+      "slug": "essential-shoe-cover-option-4-4",
+      "name": "Essential Shoe Cover \u2014 Option 4",
+      "price": 4651,
+      "images": [
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-3-0/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-3-1/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-3-2/700/700",
+        "https://picsum.photos/seed/hygiene-supplies-shoe-covers-3-3/700/700"
+      ],
+      "description": "The Essential Shoe Cover \u2014 Option 4 is a popular pick for personal protection programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Shoe Covers",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

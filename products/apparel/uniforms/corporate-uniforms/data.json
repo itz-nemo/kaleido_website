@@ -1,0 +1,90 @@
+{
+  "category": "Apparel",
+  "categorySlug": "apparel",
+  "subcategory": "Uniforms",
+  "subcategorySlug": "uniforms",
+  "leaf": "Corporate Uniforms",
+  "leafSlug": "corporate-uniforms",
+  "products": [
+    {
+      "id": "44W5BLciJf",
+      "slug": "executive-corporate-uniform-option-1-1",
+      "name": "Executive Corporate Uniform \u2014 Option 1",
+      "price": 442,
+      "images": [
+        "https://picsum.photos/seed/apparel-corporate-uniforms-0-0/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-0-1/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-0-2/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-0-3/700/700"
+      ],
+      "description": "The Executive Corporate Uniform \u2014 Option 1 is a popular pick for uniforms programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Corporate Uniforms",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "L_Bhm_2gTG",
+      "slug": "essential-corporate-uniform-option-2-2",
+      "name": "Essential Corporate Uniform \u2014 Option 2",
+      "price": 623,
+      "images": [
+        "https://picsum.photos/seed/apparel-corporate-uniforms-1-0/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-1-1/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-1-2/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-1-3/700/700"
+      ],
+      "description": "The Essential Corporate Uniform \u2014 Option 2 is a popular pick for uniforms programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Corporate Uniforms",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "_DHmgTNs2V",
+      "slug": "classic-corporate-uniform-option-3-3",
+      "name": "Classic Corporate Uniform \u2014 Option 3",
+      "price": 2319,
+      "images": [
+        "https://picsum.photos/seed/apparel-corporate-uniforms-2-0/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-2-1/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-2-2/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-2-3/700/700"
+      ],
+      "description": "The Classic Corporate Uniform \u2014 Option 3 is a popular pick for uniforms programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Corporate Uniforms",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "3btPyx4X4j",
+      "slug": "pro-corporate-uniform-option-4-4",
+      "name": "Pro Corporate Uniform \u2014 Option 4",
+      "price": 4576,
+      "images": [
+        "https://picsum.photos/seed/apparel-corporate-uniforms-3-0/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-3-1/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-3-2/700/700",
+        "https://picsum.photos/seed/apparel-corporate-uniforms-3-3/700/700"
+      ],
+      "description": "The Pro Corporate Uniform \u2014 Option 4 is a popular pick for uniforms programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Corporate Uniforms",
+        "Material": "ABS Plastic",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

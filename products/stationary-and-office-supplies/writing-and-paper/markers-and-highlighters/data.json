@@ -1,0 +1,90 @@
+{
+  "category": "Stationery & Office Supplies",
+  "categorySlug": "stationary-and-office-supplies",
+  "subcategory": "Writing & Paper",
+  "subcategorySlug": "writing-and-paper",
+  "leaf": "Markers & Highlighters",
+  "leafSlug": "markers-and-highlighters",
+  "products": [
+    {
+      "id": "dmuCOv3DHw",
+      "slug": "elite-markers-and-highlighter-option-1-1",
+      "name": "Elite Markers & Highlighter \u2014 Option 1",
+      "price": 246,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-3/700/700"
+      ],
+      "description": "The Elite Markers & Highlighter \u2014 Option 1 is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Markers & Highlighters",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "JjgrV3akK4",
+      "slug": "signature-markers-and-highlighter-option-2-2",
+      "name": "Signature Markers & Highlighter \u2014 Option 2",
+      "price": 625,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-3/700/700"
+      ],
+      "description": "The Signature Markers & Highlighter \u2014 Option 2 is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Markers & Highlighters",
+        "Material": "Genuine Leather",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "4qWKINUNzS",
+      "slug": "deluxe-markers-and-highlighter-option-3-3",
+      "name": "Deluxe Markers & Highlighter \u2014 Option 3",
+      "price": 1893,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-3/700/700"
+      ],
+      "description": "The Deluxe Markers & Highlighter \u2014 Option 3 is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Markers & Highlighters",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "VYQTHs6D5s",
+      "slug": "elite-markers-and-highlighter-option-4-4",
+      "name": "Elite Markers & Highlighter \u2014 Option 4",
+      "price": 4453,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-3/700/700"
+      ],
+      "description": "The Elite Markers & Highlighter \u2014 Option 4 is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Markers & Highlighters",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

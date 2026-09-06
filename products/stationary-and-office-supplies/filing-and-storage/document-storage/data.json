@@ -1,0 +1,90 @@
+{
+  "category": "Stationery & Office Supplies",
+  "categorySlug": "stationary-and-office-supplies",
+  "subcategory": "Filing & Storage",
+  "subcategorySlug": "filing-and-storage",
+  "leaf": "Document Storage",
+  "leafSlug": "document-storage",
+  "products": [
+    {
+      "id": "OLiepHp65m",
+      "slug": "compact-document-storage-option-1-1",
+      "name": "Compact Document Storage \u2014 Option 1",
+      "price": 207,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-0-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-0-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-0-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-0-3/700/700"
+      ],
+      "description": "The Compact Document Storage \u2014 Option 1 is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Document Storage",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "USQ4OjY2dk",
+      "slug": "eco-friendly-document-storage-option-2-2",
+      "name": "Eco-Friendly Document Storage \u2014 Option 2",
+      "price": 522,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-1-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-1-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-1-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-1-3/700/700"
+      ],
+      "description": "The Eco-Friendly Document Storage \u2014 Option 2 is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Document Storage",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "r3G2T_B5RT",
+      "slug": "premium-document-storage-option-3-3",
+      "name": "Premium Document Storage \u2014 Option 3",
+      "price": 2301,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-2-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-2-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-2-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-2-3/700/700"
+      ],
+      "description": "The Premium Document Storage \u2014 Option 3 is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Document Storage",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "l_NonT-b0G",
+      "slug": "premium-document-storage-option-4-4",
+      "name": "Premium Document Storage \u2014 Option 4",
+      "price": 2690,
+      "images": [
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-3-0/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-3-1/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-3-2/700/700",
+        "https://picsum.photos/seed/stationary-and-office-supplies-document-storage-3-3/700/700"
+      ],
+      "description": "The Premium Document Storage \u2014 Option 4 is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Document Storage",
+        "Material": "Stainless Steel",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "category": "HORECA",
+  "categorySlug": "horeca",
+  "subcategory": "Housekeeping",
+  "subcategorySlug": "housekeeping",
+  "leaf": "Laundry Supplies",
+  "leafSlug": "laundry-supplies",
+  "products": [
+    {
+      "id": "ophX85l902",
+      "slug": "eco-friendly-laundry-supplie-option-1-1",
+      "name": "Eco-Friendly Laundry Supplie \u2014 Option 1",
+      "price": 364,
+      "images": [
+        "https://picsum.photos/seed/horeca-laundry-supplies-0-0/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-0-1/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-0-2/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-0-3/700/700"
+      ],
+      "description": "The Eco-Friendly Laundry Supplie \u2014 Option 1 is a popular pick for housekeeping programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Laundry Supplies",
+        "Material": "Anodized Aluminium",
+        "Customization": "Logo branding available",
+        "MOQ": "25 units",
+        "Lead Time": "5\u20137 business days"
+      }
+    },
+    {
+      "id": "77MIfeU0Be",
+      "slug": "eco-friendly-laundry-supplie-option-2-2",
+      "name": "Eco-Friendly Laundry Supplie \u2014 Option 2",
+      "price": 874,
+      "images": [
+        "https://picsum.photos/seed/horeca-laundry-supplies-1-0/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-1-1/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-1-2/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-1-3/700/700"
+      ],
+      "description": "The Eco-Friendly Laundry Supplie \u2014 Option 2 is a popular pick for housekeeping programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Laundry Supplies",
+        "Material": "Food-Grade Silicone",
+        "Customization": "Logo branding available",
+        "MOQ": "50 units",
+        "Lead Time": "7\u201310 business days"
+      }
+    },
+    {
+      "id": "xsyQumas78",
+      "slug": "eco-friendly-laundry-supplie-option-3-3",
+      "name": "Eco-Friendly Laundry Supplie \u2014 Option 3",
+      "price": 1779,
+      "images": [
+        "https://picsum.photos/seed/horeca-laundry-supplies-2-0/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-2-1/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-2-2/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-2-3/700/700"
+      ],
+      "description": "The Eco-Friendly Laundry Supplie \u2014 Option 3 is a popular pick for housekeeping programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Laundry Supplies",
+        "Material": "Recycled PET",
+        "Customization": "Logo branding available",
+        "MOQ": "100 units",
+        "Lead Time": "10\u201314 business days"
+      }
+    },
+    {
+      "id": "t3RyPr61ws",
+      "slug": "elite-laundry-supplie-option-4-4",
+      "name": "Elite Laundry Supplie \u2014 Option 4",
+      "price": 3418,
+      "images": [
+        "https://picsum.photos/seed/horeca-laundry-supplies-3-0/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-3-1/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-3-2/700/700",
+        "https://picsum.photos/seed/horeca-laundry-supplies-3-3/700/700"
+      ],
+      "description": "The Elite Laundry Supplie \u2014 Option 4 is a popular pick for housekeeping programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "specs": {
+        "Category": "Laundry Supplies",
+        "Material": "ABS Plastic",
+        "Customization": "Logo branding available",
+        "MOQ": "250 units",
+        "Lead Time": "2\u20133 weeks"
+      }
+    }
+  ]
+}
