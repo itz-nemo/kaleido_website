@@ -321,7 +321,7 @@
   .section-inner{ max-width:var(--maxw); margin:0 auto; padding:var(--section-pad) var(--pad); }
   .section-head{ max-width:640px; margin-bottom:64px; }
   .section-head.center{ margin-left:auto; margin-right:auto; text-align:center; }
-  .section-head h2{ font-size:clamp(30px,4vw,46px); margin-top:18px; line-height:1.12; }
+  .section-head h1, .section-head h2{ font-size:clamp(30px,4vw,46px); margin-top:18px; line-height:1.12; }
   .section-head p{ margin-top:20px; font-size:16.5px; color:#3D4A57; line-height:1.65; font-weight:300; }
 
   .bg-beige{ background:var(--beige); }
@@ -399,6 +399,10 @@
   }
   @media (max-width:900px){ .prod-grid{ grid-template-columns:repeat(2,1fr); } }
   @media (max-width:640px){ .prod-grid{ grid-template-columns:repeat(2,1fr); gap:12px; } }
+
+  .cat-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+  @media (max-width:900px){ .cat-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:560px){ .cat-grid{ grid-template-columns:1fr; } }
 
   .prod-cta-banner{
     margin-top:40px; display:flex; align-items:center; justify-content:space-between; gap:24px;
