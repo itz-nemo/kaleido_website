@@ -25,7 +25,12 @@
         "Customization": "Logo branding available",
         "MOQ": "25 units",
         "Lead Time": "5\u20137 business days"
-      }
+      },
+      "occasions": [
+        "Birthdays",
+        "Work Anniversaries",
+        "Product Launches"
+      ]
     },
     {
       "id": "ze9FPyVoe1",
@@ -46,7 +51,11 @@
         "Customization": "Logo branding available",
         "MOQ": "50 units",
         "Lead Time": "7\u201310 business days"
-      }
+      },
+      "occasions": [
+        "Rewards & Recognition",
+        "Product Launches"
+      ]
     },
     {
       "id": "Y4SpSHw1xU",
@@ -67,7 +76,11 @@
         "Customization": "Logo branding available",
         "MOQ": "100 units",
         "Lead Time": "10\u201314 business days"
-      }
+      },
+      "occasions": [
+        "Employee Onboarding",
+        "Product Launches"
+      ]
     },
     {
       "id": "kkTFTjM4jL",
@@ -88,7 +101,12 @@
         "Customization": "Logo branding available",
         "MOQ": "250 units",
         "Lead Time": "2\u20133 weeks"
-      }
+      },
+      "occasions": [
+        "Employee Onboarding",
+        "Rewards & Recognition",
+        "Birthdays"
+      ]
     }
   ]
 }

@@ -130,6 +130,11 @@ TAGLINE_TEMPLATES = [
     "Thoughtfully finished {leaf_lower} that feels as good as it looks.",
     "Everyday {leaf_lower}, elevated — perfect for gifting at scale.",
 ]
+# Use-case tags shared with the nav mega-menu's "Shop by Occasion" column — kept as
+# a single list so both stay in sync. Used to facet products *within* a leaf page
+# (e.g. Pens) without ever mixing in another leaf's products (e.g. Pencils).
+OCCASIONS = ["Employee Onboarding", "Work Anniversaries", "Festivals", "Birthdays",
+             "Corporate Events", "Conferences", "Product Launches", "Rewards & Recognition"]
 
 def gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service):
     products = []
@@ -158,9 +163,12 @@ def gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service)
             "MOQ": f"{[25,50,100,250][i]} units",
             "Lead Time": ["5–7 business days","7–10 business days","10–14 business days","2–3 weeks"][i],
         }
+        occasion_count = 2 + (det_int(seed_base + "occ-count", 2))  # 2 or 3 tags per product
+        ranked = sorted(OCCASIONS, key=lambda occ: det_hash(seed_base + "occ" + occ))
+        occasions = ranked[:occasion_count]
         products.append({
             "id": pid, "slug": slug, "name": name, "tagline": tagline, "price": price,
-            "images": images, "description": description, "specs": specs,
+            "images": images, "description": description, "specs": specs, "occasions": occasions,
         })
     return products
 
@@ -178,14 +186,7 @@ MEGA_MENU = f'''<div class="has-mega">
           <div class="mega-inner">
             <div class="mega-col">
               <h5>Shop by Occasion</h5>
-              <a href="{SITE_BASE}/products.html">Employee Onboarding</a>
-              <a href="{SITE_BASE}/products.html">Work Anniversaries</a>
-              <a href="{SITE_BASE}/products.html">Festivals</a>
-              <a href="{SITE_BASE}/products.html">Birthdays</a>
-              <a href="{SITE_BASE}/products.html">Corporate Events</a>
-              <a href="{SITE_BASE}/products.html">Conferences</a>
-              <a href="{SITE_BASE}/products.html">Product Launches</a>
-              <a href="{SITE_BASE}/products.html">Rewards &amp; Recognition</a>
+              {"".join(f'<a href="{SITE_BASE}/products.html">{occ}</a>' + chr(10) + "              " for occ in OCCASIONS)}
             </div>
             <div class="mega-col">
               <h5>Shop by Category</h5>
@@ -325,12 +326,22 @@ def page_shell(title, description, body, extra_script=""):
 '''
 
 def breadcrumb(items):
-    # items: list of (label, href_or_None)
+    # items: list of (label, href_or_None) or (label, href_or_None, siblings)
+    # siblings: optional list of (sib_label, sib_href) rendered as a hover dropdown,
+    # letting a visitor jump sideways (e.g. to another leaf) without backtracking.
     parts = []
-    for i, (label, href) in enumerate(items):
+    for i, item in enumerate(items):
+        label, href = item[0], item[1]
+        siblings = item[2] if len(item) > 2 else None
         if i > 0:
             parts.append('<span class="sep">/</span>')
-        if href:
+        if href and siblings:
+            menu = "".join(
+                f'<a class="{"is-current" if sib_label == label else ""}" href="{sib_href}">{sib_label}</a>'
+                for sib_label, sib_href in siblings
+            )
+            parts.append(f'<span class="crumb-drop"><a href="{href}">{label}</a><span class="crumb-menu">{menu}</span></span>')
+        elif href:
             parts.append(f'<a href="{href}">{label}</a>')
         else:
             parts.append(f'<span class="current">{label}</span>')
@@ -350,23 +361,91 @@ def build_category_page(cat_slug, cat_name, blurb, is_service, subs):
         img = f"https://picsum.photos/seed/{seed}/160/160"
         href = f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/"
         cards.append(f'<a class="corp-card" href="{href}"><span class="corp-icon"><img src="{img}" alt="{sub_name}" loading="lazy"></span><span>{sub_name}</span></a>')
+    all_cats_siblings = [(TAXONOMY[s][0], f"{SITE_BASE}/products/{s}/") for s in CATEGORY_ORDER]
+    hero_img = f"https://picsum.photos/seed/kaleido-hero-{cat_slug}/900/560"
+
+    # ---- "Shop All" flat, faceted listing: a Uline/Grainger-style bypass so a
+    # visitor can go straight from the category page to a product without
+    # clicking through every subcategory/leaf page in between. Those pages
+    # still exist and are still linked above/from the mega-menu (kept for
+    # deep-linking + SEO) — this just adds a second, faster path to the same products.
+    all_products = []
+    sub_counts = {}
+    for sub_name, leaves in subs:
+        sub_slug = slugify(sub_name)
+        sub_counts[sub_slug] = 0
+        for leaf_name in leaves:
+            leaf_slug = slugify(leaf_name)
+            for p in gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service):
+                detail_href = f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{leaf_slug}/product-details.html?id={p['id']}&slug={p['slug']}"
+                all_products.append((sub_slug, p, detail_href))
+                sub_counts[sub_slug] += 1
+
+    shop_cards = []
+    for sub_slug, p, detail_href in all_products:
+        shop_cards.append(f'''<a class="item-card" href="{detail_href}" data-sub="{sub_slug}" data-price="{p['price']}">
+        <div class="item-img"><img src="{p['images'][0]}" alt="{p['name']}" loading="lazy"></div>
+        <div class="item-body">
+          <div class="item-name">{p['name']}</div>
+          <div class="item-tagline">{p['tagline']}</div>
+          <div class="item-price">₹{p['price']:,}</div>
+        </div>
+      </a>''')
+
+    sub_facet_buttons = [f'<button class="active" data-sub-filter="all">All <span class="count">{len(all_products)}</span></button>']
+    for sub_name, leaves in subs:
+        sub_slug = slugify(sub_name)
+        sub_facet_buttons.append(f'<button data-sub-filter="{sub_slug}">{sub_name} <span class="count">{sub_counts[sub_slug]}</span></button>')
+
+    price_facet_buttons = '''<button class="active" data-price-filter="999999">All</button>
+      <button data-price-filter="500">Under ₹500</button>
+      <button data-price-filter="1000">Under ₹1,000</button>
+      <button data-price-filter="2500">Under ₹2,500</button>
+      <button data-price-filter="5000">Under ₹5,000</button>'''
+
     body = f'''
 <section class="bg-beige" id="top">
-  <div class="section-inner">
-    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html"), (cat_name, None)])}
-    <div class="section-head reveal">
-      <span class="eyebrow">{"Sourcing Capability" if is_service else "Category"}</span>
-      <h1>{cat_name}</h1>
-      <p>{blurb}</p>
+  <div class="section-inner catalog-top">
+    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html", all_cats_siblings), (cat_name, None)])}
+    <div class="catalog-hero-grid">
+      <div class="section-head catalog reveal">
+        <span class="eyebrow">{"Sourcing Capability" if is_service else "Category"}</span>
+        <h1>{cat_name}</h1>
+        <p>{blurb}</p>
+      </div>
+      <div class="catalog-hero-media reveal"><img src="{hero_img}" alt="{cat_name}" loading="lazy"></div>
     </div>
   </div>
 </section>
 <section class="bg-white">
-  <div class="section-inner">
+  <div class="section-inner catalog-bottom">
     <div class="corp-grid reveal-stag">
       {chr(10).join(cards)}
     </div>
-    <a href="{SITE_BASE}/index.html#connect" class="prod-cta-banner reveal">
+  </div>
+</section>
+<section class="bg-white" id="shop-all">
+  <div class="section-inner" style="padding-top:0;">
+    <div class="shop-all-divider">Or shop every {cat_name.lower()} product in one place</div>
+    <div class="shop-all-layout">
+      <aside class="shop-all-sidebar">
+        <div class="facet">
+          <h6>Subcategory</h6>
+          <div class="facet-list" id="subFacet">{"".join(sub_facet_buttons)}</div>
+        </div>
+        <div class="facet">
+          <h6>{"Indicative Scale" if is_service else "Budget"}</h6>
+          <div class="facet-list" id="priceFacet">{price_facet_buttons}</div>
+        </div>
+      </aside>
+      <div>
+        <div class="shop-all-count" id="shopAllCount">{len(all_products)} products</div>
+        <div class="item-grid" id="shopAllGrid">
+          {chr(10).join(shop_cards)}
+        </div>
+      </div>
+    </div>
+    <a href="{SITE_BASE}/index.html#connect" class="prod-cta-banner reveal" style="margin-top:44px;">
       <div>
         <h3>Can't find what you're looking for?</h3>
         <p>Talk to our team about sourcing or customizing for your specific requirement.</p>
@@ -375,10 +454,46 @@ def build_category_page(cat_slug, cat_name, blurb, is_service, subs):
     </a>
   </div>
 </section>'''
+    script = '''<script>
+(function(){
+  var subBtns = document.querySelectorAll('#subFacet button');
+  var priceBtns = document.querySelectorAll('#priceFacet button');
+  var cards = document.querySelectorAll('#shopAllGrid .item-card');
+  var countEl = document.getElementById('shopAllCount');
+  var activeSub = 'all', activeMax = 999999;
+  function apply(){
+    var visible = 0;
+    cards.forEach(function(card){
+      var matchesSub = activeSub === 'all' || card.getAttribute('data-sub') === activeSub;
+      var matchesPrice = parseInt(card.getAttribute('data-price'), 10) <= activeMax;
+      var show = matchesSub && matchesPrice;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    countEl.textContent = visible + (visible === 1 ? ' product' : ' products');
+  }
+  subBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      subBtns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeSub = btn.getAttribute('data-sub-filter');
+      apply();
+    });
+  });
+  priceBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      priceBtns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeMax = parseInt(btn.getAttribute('data-price-filter'), 10);
+      apply();
+    });
+  });
+})();
+</script>'''
     title = f"{cat_name} — Kaleido"
     desc = f"Browse {cat_name} subcategories from Kaleido's corporate sourcing catalogue. {blurb}"
     out = os.path.join(ROOT, "products", cat_slug, "index.html")
-    write(out, page_shell(title, desc, body))
+    write(out, page_shell(title, desc, body, extra_script=script))
 
 def build_subcategory_page(cat_slug, cat_name, sub_name, leaves, is_service):
     sub_slug = slugify(sub_name)
@@ -389,14 +504,20 @@ def build_subcategory_page(cat_slug, cat_name, sub_name, leaves, is_service):
         img = f"https://picsum.photos/seed/{seed}/160/160"
         href = f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{leaf_slug}/"
         cards.append(f'<a class="corp-card" href="{href}"><span class="corp-icon"><img src="{img}" alt="{leaf_name}" loading="lazy"></span><span>{leaf_name}</span></a>')
+    all_cats_siblings = [(TAXONOMY[s][0], f"{SITE_BASE}/products/{s}/") for s in CATEGORY_ORDER]
+    sub_siblings = [(sn, f"{SITE_BASE}/products/{cat_slug}/{slugify(sn)}/") for sn, _ in TAXONOMY[cat_slug][3]]
+    hero_img = f"https://picsum.photos/seed/kaleido-hero-{cat_slug}-{sub_slug}/900/560"
     body = f'''
 <section class="bg-beige" id="top">
-  <div class="section-inner">
-    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html"), (cat_name, f"{SITE_BASE}/products/{cat_slug}/"), (sub_name, None)])}
-    <div class="section-head reveal">
-      <span class="eyebrow">{cat_name}</span>
-      <h1>{sub_name}</h1>
-      <p>Explore every product line under {sub_name.lower()} — pick a subcategory below or search for exactly what you need.</p>
+  <div class="section-inner catalog-top">
+    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html", all_cats_siblings), (cat_name, f"{SITE_BASE}/products/{cat_slug}/", sub_siblings), (sub_name, None)])}
+    <div class="catalog-hero-grid">
+      <div class="section-head catalog reveal">
+        <span class="eyebrow">{cat_name}</span>
+        <h1>{sub_name}</h1>
+        <p>Explore every product line under {sub_name.lower()} — pick a subcategory below or search for exactly what you need.</p>
+      </div>
+      <div class="catalog-hero-media reveal"><img src="{hero_img}" alt="{sub_name}" loading="lazy"></div>
     </div>
     <form class="search-bar reveal" onsubmit="return false;">
       <input type="text" placeholder="Search what's in your mind">
@@ -405,7 +526,7 @@ def build_subcategory_page(cat_slug, cat_name, sub_name, leaves, is_service):
   </div>
 </section>
 <section class="bg-white">
-  <div class="section-inner">
+  <div class="section-inner catalog-bottom">
     <div class="corp-grid reveal-stag">
       {chr(10).join(cards)}
     </div>
@@ -430,10 +551,17 @@ def build_leaf_page(cat_slug, cat_name, sub_name, leaf_name, is_service):
         "products": products,
     }, indent=2))
 
-    cards = []
+    # ---- Snappy (browse-gifts)-style layout: a top filter bar + left checkbox
+    # sidebar. The sidebar facets by *occasion* (Employee Onboarding, Festivals,
+    # etc.), not by sibling leaf — a leaf page shows only that leaf's own products
+    # (Pens only ever shows Pens), the checkboxes just narrow which of its own
+    # products match a use case. Checking multiple occasions is OR'd together;
+    # the price tabs then AND against that.
+    all_cards = []
     for p in products:
         detail_href = f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{leaf_slug}/product-details.html?id={p['id']}&slug={p['slug']}"
-        cards.append(f'''<a class="item-card" href="{detail_href}" data-price="{p['price']}">
+        occ_slugs = " ".join(slugify(o) for o in p["occasions"])
+        all_cards.append(f'''<a class="item-card" href="{detail_href}" data-occasions="{occ_slugs}" data-price="{p['price']}">
         <div class="item-img"><img src="{p['images'][0]}" alt="{p['name']}" loading="lazy"></div>
         <div class="item-body">
           <div class="item-name">{p['name']}</div>
@@ -442,31 +570,63 @@ def build_leaf_page(cat_slug, cat_name, sub_name, leaf_name, is_service):
         </div>
       </a>''')
 
+    occasion_checkboxes = []
+    for occ in OCCASIONS:
+        occ_slug = slugify(occ)
+        count = sum(1 for p in products if occ in p["occasions"])
+        occasion_checkboxes.append(
+            f'<label><input type="checkbox" data-occasion-filter="{occ_slug}">{occ}<span class="count">{count}</span></label>'
+        )
+
     tabs_label = "Budget" if not is_service else "Indicative Scale"
+    all_cats_siblings = [(TAXONOMY[s][0], f"{SITE_BASE}/products/{s}/") for s in CATEGORY_ORDER]
+    sub_siblings = [(sn, f"{SITE_BASE}/products/{cat_slug}/{slugify(sn)}/") for sn, _ in TAXONOMY[cat_slug][3]]
+    leaf_siblings = [(ln, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{slugify(ln)}/") for ln in dict(TAXONOMY[cat_slug][3])[sub_name]]
+    hero_img = f"https://picsum.photos/seed/kaleido-hero-{cat_slug}-{leaf_slug}/900/560"
     body = f'''
 <section class="bg-beige" id="top">
-  <div class="section-inner">
-    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html"), (cat_name, f"{SITE_BASE}/products/{cat_slug}/"), (sub_name, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/"), (leaf_name, None)])}
-    <div class="section-head reveal">
-      <span class="eyebrow">{sub_name}</span>
-      <h1>{leaf_name}</h1>
-      <p>Indicative {leaf_name.lower()} options{" for your procurement requirement" if is_service else " for your corporate gifting or workplace requirement"}. Sample listing shown below — final assortment is confirmed with our sourcing team.</p>
+  <div class="section-inner catalog-top">
+    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html", all_cats_siblings), (cat_name, f"{SITE_BASE}/products/{cat_slug}/", sub_siblings), (sub_name, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/", leaf_siblings), (leaf_name, None)])}
+    <div class="catalog-hero-grid">
+      <div class="section-head catalog reveal">
+        <span class="eyebrow">{sub_name}</span>
+        <h1>{leaf_name}</h1>
+        <p>Indicative {leaf_name.lower()} options{" for your procurement requirement" if is_service else " for your corporate gifting or workplace requirement"}. Sample listing shown below — final assortment is confirmed with our sourcing team.</p>
+      </div>
+      <div class="catalog-hero-media reveal"><img src="{hero_img}" alt="{leaf_name}" loading="lazy"></div>
     </div>
   </div>
 </section>
 <section class="bg-white">
-  <div class="section-inner">
-    <div class="price-tabs" id="priceTabs" data-label="{tabs_label}">
-      <button class="price-tab active" data-max="999999">All</button>
-      <button class="price-tab" data-max="500">Under ₹500</button>
-      <button class="price-tab" data-max="1000">Under ₹1,000</button>
-      <button class="price-tab" data-max="2500">Under ₹2,500</button>
-      <button class="price-tab" data-max="5000">Under ₹5,000</button>
+  <div class="section-inner catalog-bottom">
+    <div class="browse-topbar">
+      <div class="browse-topbar-left">
+        <span class="filters-label">Filters</span>
+        <button class="reset-link" id="resetFilters">Reset</button>
+      </div>
+      <div class="price-tabs" id="priceTabs" data-label="{tabs_label}">
+        <button class="price-tab active" data-max="999999">All</button>
+        <button class="price-tab" data-max="500">Under ₹500</button>
+        <button class="price-tab" data-max="1000">Under ₹1,000</button>
+        <button class="price-tab" data-max="2500">Under ₹2,500</button>
+        <button class="price-tab" data-max="5000">Under ₹5,000</button>
+      </div>
     </div>
-    <div class="item-grid reveal-stag" id="itemGrid">
-      {chr(10).join(cards)}
+    <div class="browse-layout">
+      <aside class="browse-sidebar">
+        <h6>Shop By Occasion</h6>
+        <div class="checkbox-list" id="occasionFacet">
+          {chr(10).join(occasion_checkboxes)}
+        </div>
+      </aside>
+      <div>
+        <div class="shop-all-count" id="leafGridCount">{len(products)} products</div>
+        <div class="item-grid" id="itemGrid">
+          {chr(10).join(all_cards)}
+        </div>
+      </div>
     </div>
-    <a href="{SITE_BASE}/index.html#connect" class="prod-cta-banner reveal">
+    <a href="{SITE_BASE}/index.html#connect" class="prod-cta-banner reveal" style="margin-top:44px;">
       <div>
         <h3>Looking for something specific?</h3>
         <p>Share your requirement and our team will source or customize it for you.</p>
@@ -477,18 +637,40 @@ def build_leaf_page(cat_slug, cat_name, sub_name, leaf_name, is_service):
 </section>'''
     script = '''<script>
 (function(){
-  var tabs = document.querySelectorAll('.price-tab');
+  var priceTabs = document.querySelectorAll('.price-tab');
+  var occBoxes = document.querySelectorAll('#occasionFacet input[type=checkbox]');
   var cards = document.querySelectorAll('#itemGrid .item-card');
-  tabs.forEach(function(tab){
-    tab.addEventListener('click', function(){
-      tabs.forEach(function(t){ t.classList.remove('active'); });
-      tab.classList.add('active');
-      var max = parseInt(tab.getAttribute('data-max'), 10);
-      cards.forEach(function(card){
-        var price = parseInt(card.getAttribute('data-price'), 10);
-        card.style.display = price <= max ? '' : 'none';
-      });
+  var countEl = document.getElementById('leafGridCount');
+  var activeMax = 999999;
+  function apply(){
+    var activeOccasions = [];
+    occBoxes.forEach(function(box){ if (box.checked) activeOccasions.push(box.getAttribute('data-occasion-filter')); });
+    var visible = 0;
+    cards.forEach(function(card){
+      var cardOccasions = card.getAttribute('data-occasions').split(' ');
+      var matchesOccasion = activeOccasions.length === 0 || activeOccasions.some(function(o){ return cardOccasions.indexOf(o) !== -1; });
+      var matchesPrice = parseInt(card.getAttribute('data-price'), 10) <= activeMax;
+      var show = matchesOccasion && matchesPrice;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
     });
+    countEl.textContent = visible + (visible === 1 ? ' product' : ' products');
+  }
+  occBoxes.forEach(function(box){ box.addEventListener('change', apply); });
+  priceTabs.forEach(function(tab){
+    tab.addEventListener('click', function(){
+      priceTabs.forEach(function(t){ t.classList.remove('active'); });
+      tab.classList.add('active');
+      activeMax = parseInt(tab.getAttribute('data-max'), 10);
+      apply();
+    });
+  });
+  document.getElementById('resetFilters').addEventListener('click', function(){
+    occBoxes.forEach(function(box){ box.checked = false; });
+    priceTabs.forEach(function(t){ t.classList.remove('active'); });
+    priceTabs[0].classList.add('active');
+    activeMax = 999999;
+    apply();
   });
 })();
 </script>'''
@@ -501,10 +683,13 @@ def build_leaf_page(cat_slug, cat_name, sub_name, leaf_name, is_service):
 def build_product_details_page(cat_slug, cat_name, sub_name, leaf_name):
     sub_slug = slugify(sub_name)
     leaf_slug = slugify(leaf_name)
+    all_cats_siblings = [(TAXONOMY[s][0], f"{SITE_BASE}/products/{s}/") for s in CATEGORY_ORDER]
+    sub_siblings = [(sn, f"{SITE_BASE}/products/{cat_slug}/{slugify(sn)}/") for sn, _ in TAXONOMY[cat_slug][3]]
+    leaf_siblings = [(ln, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{slugify(ln)}/") for ln in dict(TAXONOMY[cat_slug][3])[sub_name]]
     body = f'''
 <section class="bg-beige" id="top">
   <div class="section-inner" style="padding-bottom:0;">
-    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html"), (cat_name, f"{SITE_BASE}/products/{cat_slug}/"), (sub_name, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/"), (leaf_name, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{leaf_slug}/"), ("Product", None)])}
+    {breadcrumb([("All Categories", f"{SITE_BASE}/products.html", all_cats_siblings), (cat_name, f"{SITE_BASE}/products/{cat_slug}/", sub_siblings), (sub_name, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/", leaf_siblings), (leaf_name, f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{leaf_slug}/"), ("Product", None)])}
   </div>
 </section>
 <section class="bg-white">

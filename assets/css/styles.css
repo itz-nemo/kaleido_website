@@ -644,3 +644,85 @@
   .pdp-ctas{ display:flex; gap:14px; flex-wrap:wrap; }
   .pdp-loading{ padding:80px 0; text-align:center; color:var(--grey); font-size:15px; }
   @media (max-width:900px){ .pdp-grid{ grid-template-columns:1fr; gap:32px; } }
+
+  /* ================= SECTION 18 — CATALOG PAGE DENSITY (category/subcategory/leaf) ================= */
+  /* These listing pages don't need marketing-page breathing room; keep hero + grid close together. */
+  .section-inner.catalog-top{ padding-top:44px; padding-bottom:36px; }
+  .section-inner.catalog-bottom{ padding-top:10px; }
+  .section-head.catalog{ max-width:640px; margin-bottom:0; }
+  .catalog-hero-grid{ display:grid; grid-template-columns:1.15fr 0.85fr; gap:44px; align-items:center; }
+  .catalog-hero-media{ border-radius:18px; overflow:hidden; aspect-ratio:16/10; background:var(--beige-deep); }
+  .catalog-hero-media img{ width:100%; height:100%; object-fit:cover; }
+  @media (max-width:900px){
+    .catalog-hero-grid{ grid-template-columns:1fr; gap:24px; }
+    .catalog-hero-media{ order:-1; aspect-ratio:16/9; }
+  }
+
+  /* ================= SECTION 20 — SHOP-ALL (faceted flat listing, bypasses subcategory/leaf pages) ================= */
+  .shop-all-divider{ display:flex; align-items:center; gap:16px; margin:8px 0 44px; color:var(--grey); font-size:13px; }
+  .shop-all-divider::before, .shop-all-divider::after{ content:""; flex:1; height:1px; background:var(--line); }
+  .shop-all-layout{ display:grid; grid-template-columns:230px 1fr; gap:36px; align-items:start; }
+  .shop-all-sidebar{ position:sticky; top:96px; display:flex; flex-direction:column; gap:28px; }
+  .facet h6{
+    font-family:var(--label); font-size:11px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--grey); font-weight:600; margin-bottom:12px;
+  }
+  .facet-list{ display:flex; flex-direction:column; gap:2px; }
+  .facet-list button{
+    text-align:left; padding:8px 10px; border-radius:8px; font-size:13.5px; color:var(--ink);
+    background:transparent; border:1px solid transparent; cursor:pointer; transition:all .2s ease;
+    display:flex; justify-content:space-between; gap:8px;
+  }
+  .facet-list button .count{ color:var(--grey-light); font-size:12px; }
+  .facet-list button:hover{ background:var(--beige); }
+  .facet-list button.active{ background:var(--ink); color:#fff; }
+  .facet-list button.active .count{ color:rgba(255,255,255,0.6); }
+  .shop-all-count{ font-size:13.5px; color:var(--grey); margin-bottom:18px; }
+  @media (max-width:900px){
+    .shop-all-layout{ grid-template-columns:1fr; }
+    .shop-all-sidebar{ position:static; flex-direction:row; flex-wrap:wrap; gap:18px 28px; }
+    .facet-list{ flex-direction:row; flex-wrap:wrap; }
+  }
+
+  /* ================= SECTION 19 — BREADCRUMB SIBLING DROPDOWNS (jump sideways without backtracking) ================= */
+  .crumb-drop{ position:relative; display:inline-flex; align-items:center; }
+  .crumb-drop > a{ display:inline-flex; align-items:center; gap:3px; }
+  .crumb-drop > a::after{ content:"▾"; font-size:9px; color:var(--grey-light); }
+  .crumb-menu{
+    position:absolute; top:100%; left:0; transform:translateY(6px);
+    min-width:220px; max-width:320px; max-height:340px; overflow-y:auto;
+    background:var(--white); border:1px solid var(--line); border-radius:12px;
+    box-shadow:0 30px 54px -26px rgba(10,102,194,0.3); padding:10px; z-index:150;
+    opacity:0; pointer-events:none; transition:opacity .2s ease, transform .2s ease;
+  }
+  .crumb-drop:hover .crumb-menu, .crumb-drop:focus-within .crumb-menu{
+    opacity:1; pointer-events:auto; transform:translateY(0);
+  }
+  .crumb-menu a{ display:block; padding:8px 10px; border-radius:7px; font-size:13px; color:var(--ink); }
+  .crumb-menu a:hover{ background:var(--beige); color:var(--brass); }
+  .crumb-menu a.is-current{ color:var(--brass); font-weight:600; }
+
+  /* ================= SECTION 21 — SNAPPY-STYLE BROWSE BAR (leaf pages) ================= */
+  .browse-topbar{
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px 28px;
+    padding:22px 0 24px; border-bottom:1px solid var(--line); margin-bottom:32px;
+  }
+  .browse-topbar-left{ display:flex; align-items:center; gap:16px; }
+  .browse-topbar-left .filters-label{ font-weight:600; color:var(--ink); font-size:15px; }
+  .browse-topbar-left .reset-link{ font-size:13.5px; color:var(--brass); text-decoration:underline; background:none; border:none; cursor:pointer; padding:0; }
+  .browse-layout{ display:grid; grid-template-columns:230px 1fr; gap:40px; align-items:start; }
+  .browse-sidebar{ position:sticky; top:96px; }
+  .browse-sidebar h6{
+    font-family:var(--label); font-size:11px; letter-spacing:0.1em; text-transform:uppercase;
+    color:var(--grey); font-weight:600; margin-bottom:14px;
+  }
+  .checkbox-list{ display:flex; flex-direction:column; gap:13px; }
+  .checkbox-list label{ display:flex; align-items:center; gap:10px; font-size:14px; color:var(--ink); cursor:pointer; }
+  .checkbox-list input[type=checkbox]{ width:16px; height:16px; accent-color:var(--ink); cursor:pointer; flex:0 0 auto; }
+  .checkbox-list .count{ color:var(--grey-light); font-size:12px; margin-left:auto; }
+  @media (max-width:900px){
+    .browse-layout{ grid-template-columns:1fr; }
+    .browse-sidebar{ position:static; }
+    .checkbox-list{ flex-direction:row; flex-wrap:wrap; gap:12px 22px; }
+    .checkbox-list .count{ margin-left:0; }
+  }
