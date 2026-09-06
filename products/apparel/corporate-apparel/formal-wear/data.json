@@ -8,8 +8,9 @@
   "products": [
     {
       "id": "c1ezEQd-5i",
-      "slug": "everyday-formal-wear-option-1-1",
-      "name": "Everyday Formal Wear \u2014 Option 1",
+      "slug": "oakhaven-everyday-formal-wear-1",
+      "name": "Oakhaven Everyday Formal Wear",
+      "tagline": "Formal Wear, done right \u2014 dependable quality for corporate gifting and everyday use.",
       "price": 273,
       "images": [
         "https://picsum.photos/seed/apparel-formal-wear-0-0/700/700",
@@ -17,7 +18,7 @@
         "https://picsum.photos/seed/apparel-formal-wear-0-2/700/700",
         "https://picsum.photos/seed/apparel-formal-wear-0-3/700/700"
       ],
-      "description": "The Everyday Formal Wear \u2014 Option 1 is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Formal Wear, done right \u2014 dependable quality for corporate gifting and everyday use. The Oakhaven Everyday Formal Wear is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Formal Wear",
         "Material": "Food-Grade Silicone",
@@ -28,8 +29,9 @@
     },
     {
       "id": "0U5xejlGqK",
-      "slug": "eco-friendly-formal-wear-option-2-2",
-      "name": "Eco-Friendly Formal Wear \u2014 Option 2",
+      "slug": "vertex-eco-friendly-formal-wear-2",
+      "name": "Vertex Eco-Friendly Formal Wear",
+      "tagline": "A team favourite: practical formal wear built for daily reliability.",
       "price": 742,
       "images": [
         "https://picsum.photos/seed/apparel-formal-wear-1-0/700/700",
@@ -37,7 +39,7 @@
         "https://picsum.photos/seed/apparel-formal-wear-1-2/700/700",
         "https://picsum.photos/seed/apparel-formal-wear-1-3/700/700"
       ],
-      "description": "The Eco-Friendly Formal Wear \u2014 Option 2 is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A team favourite: practical formal wear built for daily reliability. The Vertex Eco-Friendly Formal Wear is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Formal Wear",
         "Material": "Bamboo & Wood",
@@ -48,8 +50,9 @@
     },
     {
       "id": "UTIBbPyPjM",
-      "slug": "compact-formal-wear-option-3-3",
-      "name": "Compact Formal Wear \u2014 Option 3",
+      "slug": "windermere-compact-formal-wear-3",
+      "name": "Windermere Compact Formal Wear",
+      "tagline": "Thoughtfully finished formal wear that feels as good as it looks.",
       "price": 1779,
       "images": [
         "https://picsum.photos/seed/apparel-formal-wear-2-0/700/700",
@@ -57,7 +60,7 @@
         "https://picsum.photos/seed/apparel-formal-wear-2-2/700/700",
         "https://picsum.photos/seed/apparel-formal-wear-2-3/700/700"
       ],
-      "description": "The Compact Formal Wear \u2014 Option 3 is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Thoughtfully finished formal wear that feels as good as it looks. The Windermere Compact Formal Wear is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Formal Wear",
         "Material": "ABS Plastic",
@@ -68,8 +71,9 @@
     },
     {
       "id": "6CH59f7mYp",
-      "slug": "eco-friendly-formal-wear-option-4-4",
-      "name": "Eco-Friendly Formal Wear \u2014 Option 4",
+      "slug": "arcadia-eco-friendly-formal-wear-4",
+      "name": "Arcadia Eco-Friendly Formal Wear",
+      "tagline": "Everyday formal wear, elevated \u2014 perfect for gifting at scale.",
       "price": 3776,
       "images": [
         "https://picsum.photos/seed/apparel-formal-wear-3-0/700/700",
@@ -77,7 +81,7 @@
         "https://picsum.photos/seed/apparel-formal-wear-3-2/700/700",
         "https://picsum.photos/seed/apparel-formal-wear-3-3/700/700"
       ],
-      "description": "The Eco-Friendly Formal Wear \u2014 Option 4 is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Everyday formal wear, elevated \u2014 perfect for gifting at scale. The Arcadia Eco-Friendly Formal Wear is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Formal Wear",
         "Material": "Recycled PET",

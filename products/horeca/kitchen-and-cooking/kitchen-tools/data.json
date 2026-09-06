@@ -8,8 +8,9 @@
   "products": [
     {
       "id": "MCMFG0UP5M",
-      "slug": "essential-kitchen-tool-option-1-1",
-      "name": "Essential Kitchen Tool \u2014 Option 1",
+      "slug": "fenwick-essential-kitchen-tools-1",
+      "name": "Fenwick Essential Kitchen Tools",
+      "tagline": "Kitchen Tools, done right \u2014 dependable quality for corporate gifting and everyday use.",
       "price": 353,
       "images": [
         "https://picsum.photos/seed/horeca-kitchen-tools-0-0/700/700",
@@ -17,7 +18,7 @@
         "https://picsum.photos/seed/horeca-kitchen-tools-0-2/700/700",
         "https://picsum.photos/seed/horeca-kitchen-tools-0-3/700/700"
       ],
-      "description": "The Essential Kitchen Tool \u2014 Option 1 is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Kitchen Tools, done right \u2014 dependable quality for corporate gifting and everyday use. The Fenwick Essential Kitchen Tools is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Kitchen Tools",
         "Material": "Cotton Blend",
@@ -28,8 +29,9 @@
     },
     {
       "id": "4ucToU-L_c",
-      "slug": "signature-kitchen-tool-option-2-2",
-      "name": "Signature Kitchen Tool \u2014 Option 2",
+      "slug": "fenwick-signature-kitchen-tools-2",
+      "name": "Fenwick Signature Kitchen Tools",
+      "tagline": "A team favourite: practical kitchen tools built for daily reliability.",
       "price": 790,
       "images": [
         "https://picsum.photos/seed/horeca-kitchen-tools-1-0/700/700",
@@ -37,7 +39,7 @@
         "https://picsum.photos/seed/horeca-kitchen-tools-1-2/700/700",
         "https://picsum.photos/seed/horeca-kitchen-tools-1-3/700/700"
       ],
-      "description": "The Signature Kitchen Tool \u2014 Option 2 is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A team favourite: practical kitchen tools built for daily reliability. The Fenwick Signature Kitchen Tools is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Kitchen Tools",
         "Material": "Recycled PET",
@@ -48,8 +50,9 @@
     },
     {
       "id": "57YwO-RE2z",
-      "slug": "classic-kitchen-tool-option-3-3",
-      "name": "Classic Kitchen Tool \u2014 Option 3",
+      "slug": "lumen-classic-kitchen-tools-3",
+      "name": "Lumen Classic Kitchen Tools",
+      "tagline": "Thoughtfully finished kitchen tools that feels as good as it looks.",
       "price": 2162,
       "images": [
         "https://picsum.photos/seed/horeca-kitchen-tools-2-0/700/700",
@@ -57,7 +60,7 @@
         "https://picsum.photos/seed/horeca-kitchen-tools-2-2/700/700",
         "https://picsum.photos/seed/horeca-kitchen-tools-2-3/700/700"
       ],
-      "description": "The Classic Kitchen Tool \u2014 Option 3 is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Thoughtfully finished kitchen tools that feels as good as it looks. The Lumen Classic Kitchen Tools is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Kitchen Tools",
         "Material": "Cotton Blend",
@@ -68,8 +71,9 @@
     },
     {
       "id": "TMnBE41d3I",
-      "slug": "pro-kitchen-tool-option-4-4",
-      "name": "Pro Kitchen Tool \u2014 Option 4",
+      "slug": "arcadia-pro-kitchen-tools-4",
+      "name": "Arcadia Pro Kitchen Tools",
+      "tagline": "Everyday kitchen tools, elevated \u2014 perfect for gifting at scale.",
       "price": 4653,
       "images": [
         "https://picsum.photos/seed/horeca-kitchen-tools-3-0/700/700",
@@ -77,7 +81,7 @@
         "https://picsum.photos/seed/horeca-kitchen-tools-3-2/700/700",
         "https://picsum.photos/seed/horeca-kitchen-tools-3-3/700/700"
       ],
-      "description": "The Pro Kitchen Tool \u2014 Option 4 is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Everyday kitchen tools, elevated \u2014 perfect for gifting at scale. The Arcadia Pro Kitchen Tools is a popular pick for kitchen & cooking programs and everyday horeca gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Kitchen Tools",
         "Material": "Stainless Steel",

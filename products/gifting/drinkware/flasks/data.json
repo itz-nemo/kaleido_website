@@ -8,8 +8,9 @@
   "products": [
     {
       "id": "CncqsMNoFE",
-      "slug": "classic-flask-option-1-1",
-      "name": "Classic Flask \u2014 Option 1",
+      "slug": "solace-classic-flasks-1",
+      "name": "Solace Classic Flasks",
+      "tagline": "Flasks, done right \u2014 dependable quality for corporate gifting and everyday use.",
       "price": 428,
       "images": [
         "https://picsum.photos/seed/gifting-flasks-0-0/700/700",
@@ -17,7 +18,7 @@
         "https://picsum.photos/seed/gifting-flasks-0-2/700/700",
         "https://picsum.photos/seed/gifting-flasks-0-3/700/700"
       ],
-      "description": "The Classic Flask \u2014 Option 1 is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Flasks, done right \u2014 dependable quality for corporate gifting and everyday use. The Solace Classic Flasks is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Flasks",
         "Material": "ABS Plastic",
@@ -28,8 +29,9 @@
     },
     {
       "id": "-Onek7nI5E",
-      "slug": "signature-flask-option-2-2",
-      "name": "Signature Flask \u2014 Option 2",
+      "slug": "fenwick-signature-flasks-2",
+      "name": "Fenwick Signature Flasks",
+      "tagline": "A team favourite: practical flasks built for daily reliability.",
       "price": 612,
       "images": [
         "https://picsum.photos/seed/gifting-flasks-1-0/700/700",
@@ -37,7 +39,7 @@
         "https://picsum.photos/seed/gifting-flasks-1-2/700/700",
         "https://picsum.photos/seed/gifting-flasks-1-3/700/700"
       ],
-      "description": "The Signature Flask \u2014 Option 2 is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A team favourite: practical flasks built for daily reliability. The Fenwick Signature Flasks is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Flasks",
         "Material": "Anodized Aluminium",
@@ -48,8 +50,9 @@
     },
     {
       "id": "si7D38kQpD",
-      "slug": "elite-flask-option-3-3",
-      "name": "Elite Flask \u2014 Option 3",
+      "slug": "arcadia-elite-flasks-3",
+      "name": "Arcadia Elite Flasks",
+      "tagline": "Thoughtfully finished flasks that feels as good as it looks.",
       "price": 1860,
       "images": [
         "https://picsum.photos/seed/gifting-flasks-2-0/700/700",
@@ -57,7 +60,7 @@
         "https://picsum.photos/seed/gifting-flasks-2-2/700/700",
         "https://picsum.photos/seed/gifting-flasks-2-3/700/700"
       ],
-      "description": "The Elite Flask \u2014 Option 3 is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Thoughtfully finished flasks that feels as good as it looks. The Arcadia Elite Flasks is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Flasks",
         "Material": "Cotton Blend",
@@ -68,8 +71,9 @@
     },
     {
       "id": "IiY-xSi4Q4",
-      "slug": "eco-friendly-flask-option-4-4",
-      "name": "Eco-Friendly Flask \u2014 Option 4",
+      "slug": "kindred-eco-friendly-flasks-4",
+      "name": "Kindred Eco-Friendly Flasks",
+      "tagline": "Everyday flasks, elevated \u2014 perfect for gifting at scale.",
       "price": 3430,
       "images": [
         "https://picsum.photos/seed/gifting-flasks-3-0/700/700",
@@ -77,7 +81,7 @@
         "https://picsum.photos/seed/gifting-flasks-3-2/700/700",
         "https://picsum.photos/seed/gifting-flasks-3-3/700/700"
       ],
-      "description": "The Eco-Friendly Flask \u2014 Option 4 is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Everyday flasks, elevated \u2014 perfect for gifting at scale. The Kindred Eco-Friendly Flasks is a popular pick for drinkware programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Flasks",
         "Material": "Cotton Blend",

@@ -8,8 +8,9 @@
   "products": [
     {
       "id": "Z4xkNfIzZs",
-      "slug": "eco-friendly-printer-paper-option-1-1",
-      "name": "Eco-Friendly Printer Paper \u2014 Option 1",
+      "slug": "meridian-eco-friendly-printer-paper-1",
+      "name": "Meridian Eco-Friendly Printer Paper",
+      "tagline": "Printer Paper, done right \u2014 dependable quality for corporate gifting and everyday use.",
       "price": 466,
       "images": [
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-0-0/700/700",
@@ -17,7 +18,7 @@
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-0-2/700/700",
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-0-3/700/700"
       ],
-      "description": "The Eco-Friendly Printer Paper \u2014 Option 1 is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Printer Paper, done right \u2014 dependable quality for corporate gifting and everyday use. The Meridian Eco-Friendly Printer Paper is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Printer Paper",
         "Material": "Anodized Aluminium",
@@ -28,8 +29,9 @@
     },
     {
       "id": "R0a66UbQga",
-      "slug": "signature-printer-paper-option-2-2",
-      "name": "Signature Printer Paper \u2014 Option 2",
+      "slug": "oakhaven-signature-printer-paper-2",
+      "name": "Oakhaven Signature Printer Paper",
+      "tagline": "A team favourite: practical printer paper built for daily reliability.",
       "price": 898,
       "images": [
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-1-0/700/700",
@@ -37,7 +39,7 @@
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-1-2/700/700",
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-1-3/700/700"
       ],
-      "description": "The Signature Printer Paper \u2014 Option 2 is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A team favourite: practical printer paper built for daily reliability. The Oakhaven Signature Printer Paper is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Printer Paper",
         "Material": "Bamboo & Wood",
@@ -48,8 +50,9 @@
     },
     {
       "id": "NnGZqmEDQP",
-      "slug": "premium-printer-paper-option-3-3",
-      "name": "Premium Printer Paper \u2014 Option 3",
+      "slug": "solace-premium-printer-paper-3",
+      "name": "Solace Premium Printer Paper",
+      "tagline": "Thoughtfully finished printer paper that feels as good as it looks.",
       "price": 2480,
       "images": [
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-2-0/700/700",
@@ -57,7 +60,7 @@
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-2-2/700/700",
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-2-3/700/700"
       ],
-      "description": "The Premium Printer Paper \u2014 Option 3 is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Thoughtfully finished printer paper that feels as good as it looks. The Solace Premium Printer Paper is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Printer Paper",
         "Material": "Recycled PET",
@@ -68,8 +71,9 @@
     },
     {
       "id": "H4Nr0tzqXm",
-      "slug": "modern-printer-paper-option-4-4",
-      "name": "Modern Printer Paper \u2014 Option 4",
+      "slug": "everline-modern-printer-paper-4",
+      "name": "Everline Modern Printer Paper",
+      "tagline": "Everyday printer paper, elevated \u2014 perfect for gifting at scale.",
       "price": 3656,
       "images": [
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-3-0/700/700",
@@ -77,7 +81,7 @@
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-3-2/700/700",
         "https://picsum.photos/seed/stationary-and-office-supplies-printer-paper-3-3/700/700"
       ],
-      "description": "The Modern Printer Paper \u2014 Option 4 is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Everyday printer paper, elevated \u2014 perfect for gifting at scale. The Everline Modern Printer Paper is a popular pick for printing supplies programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Printer Paper",
         "Material": "Genuine Leather",

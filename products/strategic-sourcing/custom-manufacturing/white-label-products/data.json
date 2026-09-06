@@ -8,8 +8,9 @@
   "products": [
     {
       "id": "Ukkr5iAcct",
-      "slug": "classic-white-label-product-option-1-1",
-      "name": "Classic White Label Product \u2014 Option 1",
+      "slug": "ridgeline-classic-white-label-products-1",
+      "name": "Ridgeline Classic White Label Products",
+      "tagline": "White Label Products, done right \u2014 dependable quality for corporate gifting and everyday use.",
       "price": 450,
       "images": [
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-0-0/700/700",
@@ -17,7 +18,7 @@
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-0-2/700/700",
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-0-3/700/700"
       ],
-      "description": "The Classic White Label Product \u2014 Option 1 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "White Label Products, done right \u2014 dependable quality for corporate gifting and everyday use. The Ridgeline Classic White Label Products is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "White Label Products",
         "Material": "Recycled PET",
@@ -28,8 +29,9 @@
     },
     {
       "id": "sfUybD5IdS",
-      "slug": "deluxe-white-label-product-option-2-2",
-      "name": "Deluxe White Label Product \u2014 Option 2",
+      "slug": "ridgeline-deluxe-white-label-products-2",
+      "name": "Ridgeline Deluxe White Label Products",
+      "tagline": "A team favourite: practical white label products built for daily reliability.",
       "price": 566,
       "images": [
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-1-0/700/700",
@@ -37,7 +39,7 @@
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-1-2/700/700",
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-1-3/700/700"
       ],
-      "description": "The Deluxe White Label Product \u2014 Option 2 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A team favourite: practical white label products built for daily reliability. The Ridgeline Deluxe White Label Products is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "White Label Products",
         "Material": "Anodized Aluminium",
@@ -48,8 +50,9 @@
     },
     {
       "id": "EN0pdpluY_",
-      "slug": "elite-white-label-product-option-3-3",
-      "name": "Elite White Label Product \u2014 Option 3",
+      "slug": "crestline-elite-white-label-products-3",
+      "name": "Crestline Elite White Label Products",
+      "tagline": "Thoughtfully finished white label products that feels as good as it looks.",
       "price": 1197,
       "images": [
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-2-0/700/700",
@@ -57,7 +60,7 @@
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-2-2/700/700",
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-2-3/700/700"
       ],
-      "description": "The Elite White Label Product \u2014 Option 3 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Thoughtfully finished white label products that feels as good as it looks. The Crestline Elite White Label Products is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "White Label Products",
         "Material": "Anodized Aluminium",
@@ -68,8 +71,9 @@
     },
     {
       "id": "MnfwOPFMLA",
-      "slug": "executive-white-label-product-option-4-4",
-      "name": "Executive White Label Product \u2014 Option 4",
+      "slug": "marlow-executive-white-label-products-4",
+      "name": "Marlow Executive White Label Products",
+      "tagline": "Everyday white label products, elevated \u2014 perfect for gifting at scale.",
       "price": 2991,
       "images": [
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-3-0/700/700",
@@ -77,7 +81,7 @@
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-3-2/700/700",
         "https://picsum.photos/seed/strategic-sourcing-white-label-products-3-3/700/700"
       ],
-      "description": "The Executive White Label Product \u2014 Option 4 is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Everyday white label products, elevated \u2014 perfect for gifting at scale. The Marlow Executive White Label Products is a dependable procurement option for bulk facility or project needs. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "White Label Products",
         "Material": "Bamboo & Wood",

@@ -8,8 +8,9 @@
   "products": [
     {
       "id": "2RtHPhDULv",
-      "slug": "elite-accessorie-option-1-1",
-      "name": "Elite Accessorie \u2014 Option 1",
+      "slug": "ashcroft-elite-accessories-1",
+      "name": "Ashcroft Elite Accessories",
+      "tagline": "Accessories, done right \u2014 dependable quality for corporate gifting and everyday use.",
       "price": 149,
       "images": [
         "https://picsum.photos/seed/gifting-accessories-0-0/700/700",
@@ -17,7 +18,7 @@
         "https://picsum.photos/seed/gifting-accessories-0-2/700/700",
         "https://picsum.photos/seed/gifting-accessories-0-3/700/700"
       ],
-      "description": "The Elite Accessorie \u2014 Option 1 is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Accessories, done right \u2014 dependable quality for corporate gifting and everyday use. The Ashcroft Elite Accessories is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Accessories",
         "Material": "ABS Plastic",
@@ -28,8 +29,9 @@
     },
     {
       "id": "A5QOJzD8GE",
-      "slug": "elite-accessorie-option-2-2",
-      "name": "Elite Accessorie \u2014 Option 2",
+      "slug": "lumen-elite-accessories-2",
+      "name": "Lumen Elite Accessories",
+      "tagline": "A team favourite: practical accessories built for daily reliability.",
       "price": 575,
       "images": [
         "https://picsum.photos/seed/gifting-accessories-1-0/700/700",
@@ -37,7 +39,7 @@
         "https://picsum.photos/seed/gifting-accessories-1-2/700/700",
         "https://picsum.photos/seed/gifting-accessories-1-3/700/700"
       ],
-      "description": "The Elite Accessorie \u2014 Option 2 is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A team favourite: practical accessories built for daily reliability. The Lumen Elite Accessories is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Accessories",
         "Material": "Stainless Steel",
@@ -48,8 +50,9 @@
     },
     {
       "id": "2rOnin1isL",
-      "slug": "modern-accessorie-option-3-3",
-      "name": "Modern Accessorie \u2014 Option 3",
+      "slug": "ridgeline-modern-accessories-3",
+      "name": "Ridgeline Modern Accessories",
+      "tagline": "Thoughtfully finished accessories that feels as good as it looks.",
       "price": 2014,
       "images": [
         "https://picsum.photos/seed/gifting-accessories-2-0/700/700",
@@ -57,7 +60,7 @@
         "https://picsum.photos/seed/gifting-accessories-2-2/700/700",
         "https://picsum.photos/seed/gifting-accessories-2-3/700/700"
       ],
-      "description": "The Modern Accessorie \u2014 Option 3 is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Thoughtfully finished accessories that feels as good as it looks. The Ridgeline Modern Accessories is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Accessories",
         "Material": "Cotton Blend",
@@ -68,8 +71,9 @@
     },
     {
       "id": "NHwXqli1V0",
-      "slug": "pro-accessorie-option-4-4",
-      "name": "Pro Accessorie \u2014 Option 4",
+      "slug": "fenwick-pro-accessories-4",
+      "name": "Fenwick Pro Accessories",
+      "tagline": "Everyday accessories, elevated \u2014 perfect for gifting at scale.",
       "price": 3818,
       "images": [
         "https://picsum.photos/seed/gifting-accessories-3-0/700/700",
@@ -77,7 +81,7 @@
         "https://picsum.photos/seed/gifting-accessories-3-2/700/700",
         "https://picsum.photos/seed/gifting-accessories-3-3/700/700"
       ],
-      "description": "The Pro Accessorie \u2014 Option 4 is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Everyday accessories, elevated \u2014 perfect for gifting at scale. The Fenwick Pro Accessories is a popular pick for personal accessories programs and everyday corporate gifting gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Accessories",
         "Material": "Stainless Steel",

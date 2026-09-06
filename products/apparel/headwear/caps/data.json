@@ -8,8 +8,9 @@
   "products": [
     {
       "id": "xuJxOrH97i",
-      "slug": "everyday-caps-option-1-1",
-      "name": "Everyday Caps \u2014 Option 1",
+      "slug": "meridian-everyday-caps-1",
+      "name": "Meridian Everyday Caps",
+      "tagline": "Caps, done right \u2014 dependable quality for corporate gifting and everyday use.",
       "price": 423,
       "images": [
         "https://picsum.photos/seed/apparel-caps-0-0/700/700",
@@ -17,7 +18,7 @@
         "https://picsum.photos/seed/apparel-caps-0-2/700/700",
         "https://picsum.photos/seed/apparel-caps-0-3/700/700"
       ],
-      "description": "The Everyday Caps \u2014 Option 1 is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Caps, done right \u2014 dependable quality for corporate gifting and everyday use. The Meridian Everyday Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Caps",
         "Material": "Bamboo & Wood",
@@ -28,8 +29,9 @@
     },
     {
       "id": "G0swghj8ci",
-      "slug": "premium-caps-option-2-2",
-      "name": "Premium Caps \u2014 Option 2",
+      "slug": "everline-premium-caps-2",
+      "name": "Everline Premium Caps",
+      "tagline": "A team favourite: practical caps built for daily reliability.",
       "price": 516,
       "images": [
         "https://picsum.photos/seed/apparel-caps-1-0/700/700",
@@ -37,7 +39,7 @@
         "https://picsum.photos/seed/apparel-caps-1-2/700/700",
         "https://picsum.photos/seed/apparel-caps-1-3/700/700"
       ],
-      "description": "The Premium Caps \u2014 Option 2 is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A team favourite: practical caps built for daily reliability. The Everline Premium Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Caps",
         "Material": "Anodized Aluminium",
@@ -48,8 +50,9 @@
     },
     {
       "id": "QAoDKyn9Sh",
-      "slug": "deluxe-caps-option-3-3",
-      "name": "Deluxe Caps \u2014 Option 3",
+      "slug": "bellwood-deluxe-caps-3",
+      "name": "Bellwood Deluxe Caps",
+      "tagline": "Thoughtfully finished caps that feels as good as it looks.",
       "price": 1290,
       "images": [
         "https://picsum.photos/seed/apparel-caps-2-0/700/700",
@@ -57,7 +60,7 @@
         "https://picsum.photos/seed/apparel-caps-2-2/700/700",
         "https://picsum.photos/seed/apparel-caps-2-3/700/700"
       ],
-      "description": "The Deluxe Caps \u2014 Option 3 is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Thoughtfully finished caps that feels as good as it looks. The Bellwood Deluxe Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Caps",
         "Material": "Stainless Steel",
@@ -68,8 +71,9 @@
     },
     {
       "id": "nKlP2FBABX",
-      "slug": "classic-caps-option-4-4",
-      "name": "Classic Caps \u2014 Option 4",
+      "slug": "northfield-classic-caps-4",
+      "name": "Northfield Classic Caps",
+      "tagline": "Everyday caps, elevated \u2014 perfect for gifting at scale.",
       "price": 2565,
       "images": [
         "https://picsum.photos/seed/apparel-caps-3-0/700/700",
@@ -77,7 +81,7 @@
         "https://picsum.photos/seed/apparel-caps-3-2/700/700",
         "https://picsum.photos/seed/apparel-caps-3-3/700/700"
       ],
-      "description": "The Classic Caps \u2014 Option 4 is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Everyday caps, elevated \u2014 perfect for gifting at scale. The Northfield Classic Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
       "specs": {
         "Category": "Caps",
         "Material": "Anodized Aluminium",

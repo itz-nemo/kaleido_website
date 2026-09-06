@@ -119,15 +119,26 @@ CATEGORY_ORDER = list(TAXONOMY.keys())
 # ---------------------------------------------------------- dummy product data --
 ADJECTIVES = ["Premium","Classic","Executive","Eco-Friendly","Compact","Deluxe",
               "Signature","Essential","Modern","Everyday","Pro","Elite"]
+BRANDS = ["Nova","Vertex","Meridian","Solace","Crestline","Lumen","Trueline","Kindred",
+          "Everline","Bellwood","Arcadia","Northfield","Cambria","Halcyon","Ridgeline",
+          "Marlow","Windermere","Ashcroft","Fenwick","Oakhaven"]
 MATERIALS = ["ABS Plastic","Anodized Aluminium","Recycled PET","Stainless Steel",
              "Bamboo & Wood","Genuine Leather","Cotton Blend","Food-Grade Silicone"]
+TAGLINE_TEMPLATES = [
+    "{leaf}, done right — dependable quality for corporate gifting and everyday use.",
+    "A team favourite: practical {leaf_lower} built for daily reliability.",
+    "Thoughtfully finished {leaf_lower} that feels as good as it looks.",
+    "Everyday {leaf_lower}, elevated — perfect for gifting at scale.",
+]
 
 def gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service):
     products = []
     for i in range(4):
         seed_base = f"{cat_slug}/{leaf_slug}/{i}"
         adj = ADJECTIVES[(det_int(seed_base + "adj", 1000) + i) % len(ADJECTIVES)]
-        name = f"{adj} {leaf_name.rstrip('s') if leaf_name.endswith('s') and len(leaf_name) > 4 else leaf_name} — Option {i+1}"
+        brand = BRANDS[(det_int(seed_base + "brand", 1000) + i) % len(BRANDS)]
+        name = f"{brand} {adj} {leaf_name}"
+        tagline = TAGLINE_TEMPLATES[i % len(TAGLINE_TEMPLATES)].format(leaf=leaf_name, leaf_lower=leaf_name.lower())
         tiers = [499, 999, 2499, 4999]
         lower = tiers[i-1] if i > 0 else 99
         price = lower + det_int(seed_base + "price", tiers[i] - lower)
@@ -137,7 +148,7 @@ def gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service)
         images = [f"https://picsum.photos/seed/{slugify(cat_slug)}-{leaf_slug}-{i}-{n}/700/700" for n in range(4)]
         blurb = ("a dependable procurement option for bulk facility or project needs" if is_service
                  else f"a popular pick for {sub_name.lower()} programs and everyday {cat_name.lower()} gifting")
-        description = (f"The {name} is {blurb}. Finished to a consistent quality standard and built for "
+        description = (f"{tagline} The {name} is {blurb}. Finished to a consistent quality standard and built for "
                         f"reliable performance, it's designed for corporate gifting, welcome kits and bulk "
                         f"procurement at scale — with logo branding and packaging customization available on request.")
         specs = {
@@ -148,7 +159,7 @@ def gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service)
             "Lead Time": ["5–7 business days","7–10 business days","10–14 business days","2–3 weeks"][i],
         }
         products.append({
-            "id": pid, "slug": slug, "name": name, "price": price,
+            "id": pid, "slug": slug, "name": name, "tagline": tagline, "price": price,
             "images": images, "description": description, "specs": specs,
         })
     return products
@@ -423,11 +434,12 @@ def build_leaf_page(cat_slug, cat_name, sub_name, leaf_name, is_service):
     for p in products:
         detail_href = f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{leaf_slug}/product-details.html?id={p['id']}&slug={p['slug']}"
         cards.append(f'''<a class="item-card" href="{detail_href}" data-price="{p['price']}">
-        <span class="item-img"><img src="{p['images'][0]}" alt="{p['name']}" loading="lazy"></span>
-        <span class="item-body">
-          <span class="item-name">{p['name']}</span><br>
-          <span class="item-price">₹{p['price']:,}</span>
-        </span>
+        <div class="item-img"><img src="{p['images'][0]}" alt="{p['name']}" loading="lazy"></div>
+        <div class="item-body">
+          <div class="item-name">{p['name']}</div>
+          <div class="item-tagline">{p['tagline']}</div>
+          <div class="item-price">₹{p['price']:,}</div>
+        </div>
       </a>''')
 
     tabs_label = "Budget" if not is_service else "Indicative Scale"
