@@ -65,4 +65,12 @@
     });
   }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
 
-  document.querySelectorAll('.reveal, .reveal-stag').forEach(el => io.observe(el));
+  // Anything already sitting in the viewport at load shows immediately —
+  // IntersectionObserver's first callback can lag behind first paint, which
+  // otherwise reads as "the page is blank until I scroll."
+  document.querySelectorAll('.reveal, .reveal-stag').forEach(el => {
+    const rect = el.getBoundingClientRect();
+    const alreadyVisible = rect.top < window.innerHeight && rect.bottom > 0;
+    if (alreadyVisible) el.classList.add('in');
+    else io.observe(el);
+  });

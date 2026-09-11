@@ -1,34 +1,35 @@
   :root{
-    /* ================= BRAND PALETTE: WHITE + LINKEDIN BLUE ONLY ================= */
-    /* Every colour below is either pure white, the brand blue (#0A66C2), a tint/shade
-       of that blue, or a near-black neutral kept solely for body-text legibility. */
+    /* ================= BRAND PALETTE (Kaleido brand kit — strict) ================= */
+    /* LinkedIn Navy #0A66C2 / Bright Blue #2684FF / Light Blue #A7D3FF / Pale Blue #EAF3FF
+       are the only brand colours; --ink/--grey/--line are near-black/grey neutrals kept
+       solely for body-text legibility and are not part of the brand palette itself. */
     --white:#FFFFFF;
-    --ivory:#F2F7FC;
-    --beige:#F2F7FC;
-    --beige-deep:#DCEAF7;
+    --ivory:#EAF3FF;
+    --beige:#EAF3FF;
+    --beige-deep:#A7D3FF;
     --line:#D7E3EF;
     --ink:#14171A;
     --charcoal:#14171A;
     --grey:#54697C;
     --grey-light:#93A6B7;
     --brass:#0A66C2;
-    --brass-soft:#4E9CE0;
+    --brass-soft:#2684FF;
 
-    /* ---- blue-only "gifting" accent set (replaces prior multicolour palette) ---- */
+    /* ---- blue-only "gifting" accent set (mirrors the 4 brand colours above) ---- */
     --coral:#0A66C2;
     --coral-deep:#004182;
     --pink:#0A66C2;
     --sunshine:#0A66C2;
-    --teal:#DCEAF7;
-    --purple:#4E9CE0;
-    --cream-warm:#F2F7FC;
-    --peach-tint:#DCEAF7;
+    --teal:#A7D3FF;
+    --purple:#2684FF;
+    --cream-warm:#EAF3FF;
+    --peach-tint:#A7D3FF;
     --plum-ink:#14171A;
     --plum-soft:#54697C;
 
-    --serif-display: "Roboto", sans-serif;
-    --sans: "Roboto", sans-serif;
-    --label: "Roboto Condensed", sans-serif;
+    --serif-display: "Montserrat", sans-serif;
+    --sans: "Montserrat", sans-serif;
+    --label: "Montserrat", sans-serif;
 
     --maxw: 1320px;
     --pad: clamp(24px, 5vw, 80px);
@@ -725,4 +726,39 @@
     .browse-sidebar{ position:static; }
     .checkbox-list{ flex-direction:row; flex-wrap:wrap; gap:12px 22px; }
     .checkbox-list .count{ margin-left:0; }
+  }
+
+  /* ================= SECTION 22 — BIGMINT-STYLE CATEGORY SHOWCASE (products.html) ================= */
+  .cat-showcase{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  .cat-tile{ position:relative; aspect-ratio:4/3; border-radius:16px; overflow:hidden; background:var(--beige-deep); }
+  .cat-tile-media{ position:absolute; inset:0; display:block; }
+  .cat-tile-media img{ width:100%; height:100%; object-fit:cover; transition:transform .5s cubic-bezier(.16,.8,.24,1); }
+  .cat-tile:hover .cat-tile-media img{ transform:scale(1.06); }
+  .cat-tile-overlay{
+    position:absolute; inset:0; bottom:64px; background:linear-gradient(180deg, rgba(10,20,35,.5), rgba(6,12,24,.92));
+    opacity:0; pointer-events:none; transition:opacity .3s ease; display:flex; flex-direction:column;
+    justify-content:center; padding:24px 26px; overflow-y:auto;
+  }
+  .cat-tile:hover .cat-tile-overlay{ opacity:1; pointer-events:auto; }
+  .cat-tile-overlay h4{
+    font-family:var(--label); color:#fff; font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    font-weight:600; opacity:.65; margin-bottom:14px;
+  }
+  .cat-tile-overlay ul{ display:flex; flex-direction:column; gap:10px; }
+  .cat-tile-overlay li a{ color:#fff; font-size:14px; font-weight:500; transition:color .2s ease; }
+  .cat-tile-overlay li a:hover{ color:var(--brass-soft); }
+  .cat-tile-bar{
+    position:absolute; left:0; right:0; bottom:0; height:64px; background:rgba(6,10,20,.94);
+    display:flex; align-items:center; justify-content:space-between; padding:0 20px; z-index:2;
+  }
+  .cat-tile-bar span:first-child{ color:#fff; font-weight:600; font-size:15px; }
+  .cat-tile-arrow{
+    width:32px; height:32px; border-radius:8px; background:var(--brass-soft); flex:0 0 auto;
+    display:flex; align-items:center; justify-content:center; color:#fff; font-size:15px; transition:background .2s ease;
+  }
+  .cat-tile-bar:hover .cat-tile-arrow{ background:var(--brass); }
+  @media (max-width:1100px){ .cat-showcase{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:640px){
+    .cat-showcase{ grid-template-columns:1fr; }
+    .cat-tile{ aspect-ratio:16/11; }
   }
