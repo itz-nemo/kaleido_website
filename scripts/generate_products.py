@@ -213,6 +213,7 @@ def nav_html():
       <a href="{SITE_BASE}/index.html#process">How It Works</a>
       <a href="{SITE_BASE}/index.html#clients">Clients</a>
       <a href="{SITE_BASE}/index.html#about">About Us</a>
+      <a href="{SITE_BASE}/blog.html">Blog</a>
     </nav>
     <div class="nav-ctas">
       <a href="{SITE_BASE}/products.html" class="btn btn-ghost">Explore Products</a>
@@ -228,6 +229,7 @@ def nav_html():
     <a href="{SITE_BASE}/index.html#process">How It Works</a>
     <a href="{SITE_BASE}/index.html#clients">Clients</a>
     <a href="{SITE_BASE}/index.html#about">About Us</a>
+    <a href="{SITE_BASE}/blog.html">Blog</a>
     <div class="mobile-ctas">
       <a href="{SITE_BASE}/products.html" class="btn btn-ghost">Explore Products</a>
       <a href="{SITE_BASE}/index.html#connect" class="btn btn-dark">Connect With Us</a>
@@ -280,7 +282,7 @@ def footer_html():
       <ul>
         <li><a href="{SITE_BASE}/index.html#about">About Us</a></li>
         <li><a href="{SITE_BASE}/index.html#clients">Clients &amp; Testimonials</a></li>
-        <li><a href="{SITE_BASE}/index.html#connect">Insights</a></li>
+        <li><a href="{SITE_BASE}/blog.html">Insights</a></li>
         <li><a href="{SITE_BASE}/index.html#connect">Contact</a></li>
         <li><a href="{SITE_BASE}/index.html#connect">Become a Partner</a></li>
       </ul>
