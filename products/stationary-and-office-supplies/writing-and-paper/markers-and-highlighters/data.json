@@ -7,105 +7,25 @@
   "leafSlug": "markers-and-highlighters",
   "products": [
     {
-      "id": "dmuCOv3DHw",
-      "slug": "crestline-elite-markers-and-highlighters-1",
-      "name": "Crestline Elite Markers & Highlighters",
-      "tagline": "Markers & Highlighters, done right \u2014 dependable quality for corporate gifting and everyday use.",
-      "price": 246,
+      "id": "cf19afda-69d5-4ed9-b508-68eabf5046a5",
+      "slug": "crestline-fine-point-permanent-markers-set-of-12",
+      "name": "Crestline Fine-Point Permanent Markers, Set of 12",
+      "tagline": "Fine-point permanent ink for labelling, signage and everyday marking.",
+      "price": 399,
       "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-0-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/3861196025c060fbb51eae87e81876f6aded5aa3-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Markers & Highlighters, done right \u2014 dependable quality for corporate gifting and everyday use. The Crestline Elite Markers & Highlighters is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A fine-point permanent marker set built for crisp, consistent lines on paper, cardboard and most hard surfaces. Sold in sets of 12 \u2014 a practical add-on for event kits and office restocks.",
       "specs": {
         "Category": "Markers & Highlighters",
-        "Material": "Anodized Aluminium",
+        "Material": "Polypropylene Barrel",
         "Customization": "Logo branding available",
-        "MOQ": "25 units",
-        "Lead Time": "5\u20137 business days"
-      },
-      "occasions": [
-        "Conferences",
-        "Corporate Events",
-        "Employee Onboarding"
-      ]
-    },
-    {
-      "id": "JjgrV3akK4",
-      "slug": "everline-signature-markers-and-highlighters-2",
-      "name": "Everline Signature Markers & Highlighters",
-      "tagline": "A team favourite: practical markers & highlighters built for daily reliability.",
-      "price": 625,
-      "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-1-3/700/700"
-      ],
-      "description": "A team favourite: practical markers & highlighters built for daily reliability. The Everline Signature Markers & Highlighters is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Markers & Highlighters",
-        "Material": "Genuine Leather",
-        "Customization": "Logo branding available",
-        "MOQ": "50 units",
+        "MOQ": "25 sets",
         "Lead Time": "7\u201310 business days"
       },
       "occasions": [
-        "Corporate Events",
-        "Festivals"
-      ]
-    },
-    {
-      "id": "4qWKINUNzS",
-      "slug": "fenwick-deluxe-markers-and-highlighters-3",
-      "name": "Fenwick Deluxe Markers & Highlighters",
-      "tagline": "Thoughtfully finished markers & highlighters that feels as good as it looks.",
-      "price": 1893,
-      "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-2-3/700/700"
-      ],
-      "description": "Thoughtfully finished markers & highlighters that feels as good as it looks. The Fenwick Deluxe Markers & Highlighters is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Markers & Highlighters",
-        "Material": "Anodized Aluminium",
-        "Customization": "Logo branding available",
-        "MOQ": "100 units",
-        "Lead Time": "10\u201314 business days"
-      },
-      "occasions": [
-        "Birthdays",
-        "Work Anniversaries"
-      ]
-    },
-    {
-      "id": "VYQTHs6D5s",
-      "slug": "ridgeline-elite-markers-and-highlighters-4",
-      "name": "Ridgeline Elite Markers & Highlighters",
-      "tagline": "Everyday markers & highlighters, elevated \u2014 perfect for gifting at scale.",
-      "price": 4453,
-      "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-markers-and-highlighters-3-3/700/700"
-      ],
-      "description": "Everyday markers & highlighters, elevated \u2014 perfect for gifting at scale. The Ridgeline Elite Markers & Highlighters is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Markers & Highlighters",
-        "Material": "Recycled PET",
-        "Customization": "Logo branding available",
-        "MOQ": "250 units",
-        "Lead Time": "2\u20133 weeks"
-      },
-      "occasions": [
-        "Birthdays",
-        "Corporate Events",
-        "Product Launches"
+        "Product Launches",
+        "Corporate Events"
       ]
     }
   ]

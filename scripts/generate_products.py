@@ -10,7 +10,7 @@ Re-run this script any time TAXONOMY below changes:
 It is a dev-time content generator, not a runtime build step — the site
 stays plain static HTML/CSS/JS for GitHub Pages hosting.
 """
-import hashlib, base64, json, os, re, shutil
+import hashlib, base64, json, os, re, shutil, urllib.request, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_BASE = "/kaleido_website"  # GitHub Pages project-site prefix
@@ -169,6 +169,65 @@ def gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service)
         products.append({
             "id": pid, "slug": slug, "name": name, "tagline": tagline, "price": price,
             "images": images, "description": description, "specs": specs, "occasions": occasions,
+        })
+    return products
+
+# ---------------------------------------------------------------- Sanity fetch --
+# Real, manually-entered products live in Sanity (see /studio). Fetched once per
+# generator run and looked up by (category, subcategory, leaf) slug; any leaf with
+# no real products yet keeps showing the placeholder data from gen_products() above,
+# so the site works before and during manual data entry with no code changes needed.
+SANITY_PROJECT_ID = "yr0rqbpl"
+SANITY_DATASET = "production"
+SANITY_API_VERSION = "2024-01-01"
+
+def fetch_sanity_products():
+    query = '''*[_type == "product"]{
+      _id, name, tagline, price, description, material, customization, moq, leadTime, occasions,
+      "slug": slug.current,
+      "images": images[].asset->url,
+      "leafSlug": leaf->slug.current,
+      "subSlug": leaf->subcategory->slug.current,
+      "catSlug": leaf->subcategory->category->slug.current
+    }'''
+    url = (f"https://{SANITY_PROJECT_ID}.api.sanity.io/v{SANITY_API_VERSION}"
+           f"/data/query/{SANITY_DATASET}?query={urllib.parse.quote(query)}")
+    try:
+        with urllib.request.urlopen(url, timeout=15) as resp:
+            payload = json.loads(resp.read())
+    except Exception as e:
+        print(f"Note: couldn't fetch products from Sanity ({e}); using placeholder data everywhere.")
+        return {}
+    by_leaf = {}
+    for r in payload.get("result", []):
+        key = (r["catSlug"], r["subSlug"], r["leafSlug"])
+        by_leaf.setdefault(key, []).append(r)
+    return by_leaf
+
+SANITY_PRODUCTS = fetch_sanity_products()
+
+def get_products_for_leaf(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service):
+    sub_slug = slugify(sub_name)
+    real = SANITY_PRODUCTS.get((cat_slug, sub_slug, leaf_slug))
+    if not real:
+        return gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service)
+    products = []
+    for r in real:
+        imgs = [f"{u}?w=700&h=700&fit=crop" for u in (r.get("images") or [])]
+        if not imgs:
+            imgs = [f"https://picsum.photos/seed/{leaf_slug}-fallback/700/700"]
+        products.append({
+            "id": r["_id"], "slug": r["slug"], "name": r["name"],
+            "tagline": r.get("tagline", ""), "price": r["price"], "images": imgs,
+            "description": r.get("description", ""),
+            "specs": {
+                "Category": leaf_name,
+                "Material": r.get("material") or "—",
+                "Customization": r.get("customization") or "—",
+                "MOQ": r.get("moq") or "—",
+                "Lead Time": r.get("leadTime") or "—",
+            },
+            "occasions": r.get("occasions") or [],
         })
     return products
 
@@ -378,7 +437,7 @@ def build_category_page(cat_slug, cat_name, blurb, is_service, subs):
         sub_counts[sub_slug] = 0
         for leaf_name in leaves:
             leaf_slug = slugify(leaf_name)
-            for p in gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service):
+            for p in get_products_for_leaf(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service):
                 detail_href = f"{SITE_BASE}/products/{cat_slug}/{sub_slug}/{leaf_slug}/product-details.html?id={p['id']}&slug={p['slug']}"
                 all_products.append((sub_slug, p, detail_href))
                 sub_counts[sub_slug] += 1
@@ -542,7 +601,7 @@ def build_subcategory_page(cat_slug, cat_name, sub_name, leaves, is_service):
 def build_leaf_page(cat_slug, cat_name, sub_name, leaf_name, is_service):
     sub_slug = slugify(sub_name)
     leaf_slug = slugify(leaf_name)
-    products = gen_products(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service)
+    products = get_products_for_leaf(cat_slug, cat_name, sub_name, leaf_name, leaf_slug, is_service)
 
     # write data.json for this leaf (consumed by product-details.html)
     data_out = os.path.join(ROOT, "products", cat_slug, sub_slug, leaf_slug, "data.json")

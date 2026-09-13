@@ -7,105 +7,47 @@
   "leafSlug": "pens",
   "products": [
     {
-      "id": "Gr786vCjrp",
-      "slug": "marlow-premium-pens-1",
-      "name": "Marlow Premium Pens",
-      "tagline": "Pens, done right \u2014 dependable quality for corporate gifting and everyday use.",
-      "price": 169,
+      "id": "07246926-e9bd-4fe3-a8d6-862e21c6cabc",
+      "slug": "meridian-xtra-life-ballpoint-pens-medium-tip",
+      "name": "Meridian Xtra-Life Ballpoint Pens, Medium Tip",
+      "tagline": "Extra-long-life ink cartridges that outlast the average desk pen.",
+      "price": 319,
       "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-0-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-0-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-0-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-0-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/ae44eb0c875f029014596180fdf42e68b29e1bef-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Pens, done right \u2014 dependable quality for corporate gifting and everyday use. The Marlow Premium Pens is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "Built around a higher-capacity ink cartridge for longer writing life, the Meridian ballpoint is a reliable choice for teams that go through pens fast. Available in bulk packs with custom branding.",
       "specs": {
         "Category": "Pens",
-        "Material": "Bamboo & Wood",
+        "Material": "Recycled PET Barrel",
         "Customization": "Logo branding available",
-        "MOQ": "25 units",
+        "MOQ": "50 packs",
         "Lead Time": "5\u20137 business days"
       },
       "occasions": [
-        "Product Launches",
-        "Corporate Events",
+        "Rewards & Recognition",
         "Conferences"
       ]
     },
     {
-      "id": "dN-TA6VlcN",
-      "slug": "vertex-pro-pens-2",
-      "name": "Vertex Pro Pens",
-      "tagline": "A team favourite: practical pens built for daily reliability.",
-      "price": 509,
+      "id": "48515766-73fe-46bb-ad7f-1d761edfe3bb",
+      "slug": "vertex-smooth-glide-ballpoint-pens-pack-of-10",
+      "name": "Vertex Smooth-Glide Ballpoint Pens, Pack of 10",
+      "tagline": "Medium-tip ballpoints built for smooth, skip-free writing all day.",
+      "price": 249,
       "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-1-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-1-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-1-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-1-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/643121f5e0209fe29da5d827936f79ee3dca1e00-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "A team favourite: practical pens built for daily reliability. The Vertex Pro Pens is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A dependable everyday ballpoint pen for the workplace \u2014 medium 1mm tip, smooth ink flow, and a comfortable grip. Sold in packs of 10, with logo branding and custom barrel colours available for bulk corporate orders.",
       "specs": {
         "Category": "Pens",
-        "Material": "Bamboo & Wood",
+        "Material": "ABS Plastic Barrel",
         "Customization": "Logo branding available",
-        "MOQ": "50 units",
-        "Lead Time": "7\u201310 business days"
+        "MOQ": "50 packs",
+        "Lead Time": "5\u20137 business days"
       },
       "occasions": [
-        "Rewards & Recognition",
-        "Product Launches"
-      ]
-    },
-    {
-      "id": "cyaxwVX_st",
-      "slug": "crestline-modern-pens-3",
-      "name": "Crestline Modern Pens",
-      "tagline": "Thoughtfully finished pens that feels as good as it looks.",
-      "price": 1056,
-      "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-2-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-2-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-2-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-2-3/700/700"
-      ],
-      "description": "Thoughtfully finished pens that feels as good as it looks. The Crestline Modern Pens is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Pens",
-        "Material": "Anodized Aluminium",
-        "Customization": "Logo branding available",
-        "MOQ": "100 units",
-        "Lead Time": "10\u201314 business days"
-      },
-      "occasions": [
-        "Corporate Events",
-        "Rewards & Recognition",
-        "Festivals"
-      ]
-    },
-    {
-      "id": "G_nwoogZvn",
-      "slug": "meridian-essential-pens-4",
-      "name": "Meridian Essential Pens",
-      "tagline": "Everyday pens, elevated \u2014 perfect for gifting at scale.",
-      "price": 4890,
-      "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-3-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-3-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-3-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-pens-3-3/700/700"
-      ],
-      "description": "Everyday pens, elevated \u2014 perfect for gifting at scale. The Meridian Essential Pens is a popular pick for writing & paper programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Pens",
-        "Material": "Stainless Steel",
-        "Customization": "Logo branding available",
-        "MOQ": "250 units",
-        "Lead Time": "2\u20133 weeks"
-      },
-      "occasions": [
-        "Rewards & Recognition",
-        "Birthdays"
+        "Employee Onboarding",
+        "Corporate Events"
       ]
     }
   ]
