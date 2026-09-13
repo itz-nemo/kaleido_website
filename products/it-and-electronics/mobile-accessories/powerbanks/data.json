@@ -7,105 +7,47 @@
   "leafSlug": "powerbanks",
   "products": [
     {
-      "id": "oROqM-gMNh",
-      "slug": "trueline-modern-powerbanks-1",
-      "name": "Trueline Modern PowerBanks",
-      "tagline": "PowerBanks, done right \u2014 dependable quality for corporate gifting and everyday use.",
-      "price": 255,
+      "id": "f04d51b1-2f71-40b9-b11b-50103575b862",
+      "slug": "windermere-10000mah-power-bank",
+      "name": "Windermere 10000mAh Power Bank",
+      "tagline": "A slim, everyday power bank for a full phone charge on the go.",
+      "price": 899,
       "images": [
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-0-0/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-0-1/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-0-2/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-0-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/730b266ffba158b1152a80e888c0bef3cbad8a93-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "PowerBanks, done right \u2014 dependable quality for corporate gifting and everyday use. The Trueline Modern PowerBanks is a popular pick for mobile accessories programs and everyday it & electronics gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A slim 10,000mAh power bank sized for a full smartphone charge on the go. A popular pick for conference gifting and product launch kits.",
       "specs": {
         "Category": "PowerBanks",
-        "Material": "Stainless Steel",
-        "Customization": "Logo branding available",
-        "MOQ": "25 units",
-        "Lead Time": "5\u20137 business days"
-      },
-      "occasions": [
-        "Conferences",
-        "Product Launches"
-      ]
-    },
-    {
-      "id": "vHGOh1b8Gd",
-      "slug": "crestline-classic-powerbanks-2",
-      "name": "Crestline Classic PowerBanks",
-      "tagline": "A team favourite: practical powerbanks built for daily reliability.",
-      "price": 662,
-      "images": [
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-1-0/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-1-1/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-1-2/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-1-3/700/700"
-      ],
-      "description": "A team favourite: practical powerbanks built for daily reliability. The Crestline Classic PowerBanks is a popular pick for mobile accessories programs and everyday it & electronics gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "PowerBanks",
-        "Material": "Genuine Leather",
+        "Material": "ABS Plastic Shell",
         "Customization": "Logo branding available",
         "MOQ": "50 units",
-        "Lead Time": "7\u201310 business days"
-      },
-      "occasions": [
-        "Birthdays",
-        "Employee Onboarding"
-      ]
-    },
-    {
-      "id": "Q-mioYhlnH",
-      "slug": "bellwood-essential-powerbanks-3",
-      "name": "Bellwood Essential PowerBanks",
-      "tagline": "Thoughtfully finished powerbanks that feels as good as it looks.",
-      "price": 1248,
-      "images": [
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-2-0/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-2-1/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-2-2/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-2-3/700/700"
-      ],
-      "description": "Thoughtfully finished powerbanks that feels as good as it looks. The Bellwood Essential PowerBanks is a popular pick for mobile accessories programs and everyday it & electronics gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "PowerBanks",
-        "Material": "Genuine Leather",
-        "Customization": "Logo branding available",
-        "MOQ": "100 units",
         "Lead Time": "10\u201314 business days"
       },
       "occasions": [
-        "Corporate Events",
-        "Festivals",
+        "Product Launches",
         "Conferences"
       ]
     },
     {
-      "id": "2OZpXhlGVP",
-      "slug": "solace-signature-powerbanks-4",
-      "name": "Solace Signature PowerBanks",
-      "tagline": "Everyday powerbanks, elevated \u2014 perfect for gifting at scale.",
-      "price": 2635,
+      "id": "fb5fc580-d06f-4325-b785-a06b534744f2",
+      "slug": "ashcroft-20000mah-fast-charge-power-bank",
+      "name": "Ashcroft 20000mAh Fast-Charge Power Bank",
+      "tagline": "Higher-capacity fast charging for two full device charges.",
+      "price": 1499,
       "images": [
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-3-0/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-3-1/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-3-2/700/700",
-        "https://picsum.photos/seed/it-and-electronics-powerbanks-3-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/b5b64bcf1cd7814685844fbf999145e1c07fd597-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Everyday powerbanks, elevated \u2014 perfect for gifting at scale. The Solace Signature PowerBanks is a popular pick for mobile accessories programs and everyday it & electronics gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A higher-capacity 20,000mAh power bank with fast-charge support, good for roughly two full device charges. A stronger option for premium gifting or leadership kits.",
       "specs": {
         "Category": "PowerBanks",
-        "Material": "ABS Plastic",
+        "Material": "Aluminium Shell",
         "Customization": "Logo branding available",
-        "MOQ": "250 units",
-        "Lead Time": "2\u20133 weeks"
+        "MOQ": "30 units",
+        "Lead Time": "10\u201314 business days"
       },
       "occasions": [
-        "Product Launches",
-        "Work Anniversaries",
-        "Birthdays"
+        "Rewards & Recognition",
+        "Product Launches"
       ]
     }
   ]

@@ -7,106 +7,46 @@
   "leafSlug": "files-and-folders",
   "products": [
     {
-      "id": "suclRDQITJ",
-      "slug": "windermere-compact-files-and-folders-1",
-      "name": "Windermere Compact Files & Folders",
-      "tagline": "Files & Folders, done right \u2014 dependable quality for corporate gifting and everyday use.",
-      "price": 108,
+      "id": "0c928b88-a7dd-434a-8dab-2849808a77ef",
+      "slug": "bellwood-expanding-file-folders-letter-size",
+      "name": "Bellwood Expanding File Folders, Letter Size",
+      "tagline": "Multi-pocket folders for organizing paperwork by category.",
+      "price": 329,
       "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-0-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-0-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-0-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-0-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/d9da48c52d9caeb3065ef675afea41b9c3150a7a-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Files & Folders, done right \u2014 dependable quality for corporate gifting and everyday use. The Windermere Compact Files & Folders is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A multi-pocket expanding folder for sorting paperwork by category, sized for standard letter documents. A practical restock item for any office.",
       "specs": {
         "Category": "Files & Folders",
-        "Material": "Cotton Blend",
-        "Customization": "Logo branding available",
-        "MOQ": "25 units",
+        "Material": "Polypropylene",
+        "Customization": "Not applicable",
+        "MOQ": "30 units",
         "Lead Time": "5\u20137 business days"
       },
       "occasions": [
-        "Birthdays",
-        "Employee Onboarding",
-        "Product Launches"
+        "Employee Onboarding"
       ]
     },
     {
-      "id": "OUPKOQUlLK",
-      "slug": "ridgeline-everyday-files-and-folders-2",
-      "name": "Ridgeline Everyday Files & Folders",
-      "tagline": "A team favourite: practical files & folders built for daily reliability.",
-      "price": 634,
+      "id": "ee27cf14-f6a8-40a3-b4c3-13e28d203b2d",
+      "slug": "everline-presentation-folders-pack-of-20",
+      "name": "Everline Presentation Folders, Pack of 20",
+      "tagline": "Clean, professional folders for client-facing documents.",
+      "price": 459,
       "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-1-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-1-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-1-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-1-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/76e57e2d349dd08c9e03f149f3b1c8c423fa8aee-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "A team favourite: practical files & folders built for daily reliability. The Ridgeline Everyday Files & Folders is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A pack of 20 presentation folders for proposals, reports and client-facing paperwork. Logo printing is available for bulk orders.",
       "specs": {
         "Category": "Files & Folders",
-        "Material": "Recycled PET",
-        "Customization": "Logo branding available",
-        "MOQ": "50 units",
+        "Material": "300 GSM Paperboard",
+        "Customization": "Logo printing available",
+        "MOQ": "20 packs",
         "Lead Time": "7\u201310 business days"
       },
       "occasions": [
-        "Work Anniversaries",
-        "Festivals",
-        "Employee Onboarding"
-      ]
-    },
-    {
-      "id": "xhrXSfSw5R",
-      "slug": "cambria-pro-files-and-folders-3",
-      "name": "Cambria Pro Files & Folders",
-      "tagline": "Thoughtfully finished files & folders that feels as good as it looks.",
-      "price": 1444,
-      "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-2-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-2-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-2-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-2-3/700/700"
-      ],
-      "description": "Thoughtfully finished files & folders that feels as good as it looks. The Cambria Pro Files & Folders is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Files & Folders",
-        "Material": "Anodized Aluminium",
-        "Customization": "Logo branding available",
-        "MOQ": "100 units",
-        "Lead Time": "10\u201314 business days"
-      },
-      "occasions": [
         "Corporate Events",
-        "Work Anniversaries",
-        "Employee Onboarding"
-      ]
-    },
-    {
-      "id": "8t8Urh3KRG",
-      "slug": "vertex-premium-files-and-folders-4",
-      "name": "Vertex Premium Files & Folders",
-      "tagline": "Everyday files & folders, elevated \u2014 perfect for gifting at scale.",
-      "price": 3647,
-      "images": [
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-3-0/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-3-1/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-3-2/700/700",
-        "https://picsum.photos/seed/stationary-and-office-supplies-files-and-folders-3-3/700/700"
-      ],
-      "description": "Everyday files & folders, elevated \u2014 perfect for gifting at scale. The Vertex Premium Files & Folders is a popular pick for filing & storage programs and everyday stationery & office supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Files & Folders",
-        "Material": "Genuine Leather",
-        "Customization": "Logo branding available",
-        "MOQ": "250 units",
-        "Lead Time": "2\u20133 weeks"
-      },
-      "occasions": [
-        "Work Anniversaries",
-        "Festivals"
+        "Conferences"
       ]
     }
   ]

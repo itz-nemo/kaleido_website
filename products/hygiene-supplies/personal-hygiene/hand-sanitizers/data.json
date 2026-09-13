@@ -7,105 +7,47 @@
   "leafSlug": "hand-sanitizers",
   "products": [
     {
-      "id": "f1AZ7a3wZi",
-      "slug": "marlow-compact-hand-sanitizers-1",
-      "name": "Marlow Compact Hand Sanitizers",
-      "tagline": "Hand Sanitizers, done right \u2014 dependable quality for corporate gifting and everyday use.",
-      "price": 399,
+      "id": "19f653d0-74d1-48e8-9db1-42eacb766a7e",
+      "slug": "arcadia-hand-sanitizer-gel-500ml-pump",
+      "name": "Arcadia Hand Sanitizer Gel, 500ml Pump",
+      "tagline": "A 70% alcohol gel sanitizer for shared workspaces.",
+      "price": 199,
       "images": [
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-0/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-1/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-2/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-0-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/b3cb2f1247f4fd0b2e8bbb466c4c6b099791a0d5-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Hand Sanitizers, done right \u2014 dependable quality for corporate gifting and everyday use. The Marlow Compact Hand Sanitizers is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A 500ml pump-top hand sanitizer gel with 70% alcohol content, sized for shared desks, reception areas and washrooms. Label branding is available in bulk.",
       "specs": {
         "Category": "Hand Sanitizers",
-        "Material": "Recycled PET",
-        "Customization": "Logo branding available",
-        "MOQ": "25 units",
+        "Material": "70% Alcohol Gel",
+        "Customization": "Label branding available",
+        "MOQ": "100 units",
         "Lead Time": "5\u20137 business days"
       },
       "occasions": [
-        "Product Launches",
-        "Corporate Events",
-        "Birthdays"
+        "Employee Onboarding",
+        "Corporate Events"
       ]
     },
     {
-      "id": "KzGfN1Ssin",
-      "slug": "fenwick-elite-hand-sanitizers-2",
-      "name": "Fenwick Elite Hand Sanitizers",
-      "tagline": "A team favourite: practical hand sanitizers built for daily reliability.",
-      "price": 695,
+      "id": "1c306bd1-21a4-4c88-9edd-b0b228d2ab05",
+      "slug": "northfield-pocket-sanitizer-spray-50ml",
+      "name": "Northfield Pocket Sanitizer Spray, 50ml",
+      "tagline": "A compact sanitizer spray sized for a desk drawer or bag.",
+      "price": 89,
       "images": [
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-0/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-1/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-2/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-1-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/815901f0c19d577dd391d92b18a5021708af82de-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "A team favourite: practical hand sanitizers built for daily reliability. The Fenwick Elite Hand Sanitizers is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A 50ml pocket-sized sanitizer spray with 70% alcohol content \u2014 small enough for a bag or desk drawer. Popular as a small add-on item in welcome kits.",
       "specs": {
         "Category": "Hand Sanitizers",
-        "Material": "Stainless Steel",
-        "Customization": "Logo branding available",
-        "MOQ": "50 units",
-        "Lead Time": "7\u201310 business days"
+        "Material": "70% Alcohol Spray",
+        "Customization": "Label branding available",
+        "MOQ": "200 units",
+        "Lead Time": "5\u20137 business days"
       },
       "occasions": [
         "Employee Onboarding",
-        "Birthdays"
-      ]
-    },
-    {
-      "id": "gsCh9tEQ1e",
-      "slug": "everline-classic-hand-sanitizers-3",
-      "name": "Everline Classic Hand Sanitizers",
-      "tagline": "Thoughtfully finished hand sanitizers that feels as good as it looks.",
-      "price": 1194,
-      "images": [
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-0/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-1/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-2/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-2-3/700/700"
-      ],
-      "description": "Thoughtfully finished hand sanitizers that feels as good as it looks. The Everline Classic Hand Sanitizers is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Hand Sanitizers",
-        "Material": "ABS Plastic",
-        "Customization": "Logo branding available",
-        "MOQ": "100 units",
-        "Lead Time": "10\u201314 business days"
-      },
-      "occasions": [
-        "Product Launches",
         "Conferences"
-      ]
-    },
-    {
-      "id": "aU6NtBxV4U",
-      "slug": "windermere-premium-hand-sanitizers-4",
-      "name": "Windermere Premium Hand Sanitizers",
-      "tagline": "Everyday hand sanitizers, elevated \u2014 perfect for gifting at scale.",
-      "price": 3660,
-      "images": [
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-0/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-1/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-2/700/700",
-        "https://picsum.photos/seed/hygiene-supplies-hand-sanitizers-3-3/700/700"
-      ],
-      "description": "Everyday hand sanitizers, elevated \u2014 perfect for gifting at scale. The Windermere Premium Hand Sanitizers is a popular pick for personal hygiene programs and everyday hygiene supplies gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Hand Sanitizers",
-        "Material": "Recycled PET",
-        "Customization": "Logo branding available",
-        "MOQ": "250 units",
-        "Lead Time": "2\u20133 weeks"
-      },
-      "occasions": [
-        "Employee Onboarding",
-        "Birthdays",
-        "Work Anniversaries"
       ]
     }
   ]

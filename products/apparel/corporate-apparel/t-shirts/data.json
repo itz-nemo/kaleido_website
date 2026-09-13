@@ -7,106 +7,46 @@
   "leafSlug": "t-shirts",
   "products": [
     {
-      "id": "Zfyw12_zSk",
-      "slug": "arcadia-elite-t-shirts-1",
-      "name": "Arcadia Elite T-Shirts",
-      "tagline": "T-Shirts, done right \u2014 dependable quality for corporate gifting and everyday use.",
-      "price": 317,
+      "id": "2138b355-d299-49fa-89a3-70bc1198dbfb",
+      "slug": "everline-performance-t-shirt",
+      "name": "Everline Performance T-Shirt",
+      "tagline": "A moisture-wicking tee built for active team events.",
+      "price": 499,
       "images": [
-        "https://picsum.photos/seed/apparel-t-shirts-0-0/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-0-1/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-0-2/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-0-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/ecdff2f202abf1b4ee60ede206948935e9801a6e-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "T-Shirts, done right \u2014 dependable quality for corporate gifting and everyday use. The Arcadia Elite T-Shirts is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A moisture-wicking performance t-shirt built for sports days and active team events, with logo printing available for bulk orders.",
       "specs": {
         "Category": "T-Shirts",
-        "Material": "Stainless Steel",
-        "Customization": "Logo branding available",
-        "MOQ": "25 units",
-        "Lead Time": "5\u20137 business days"
-      },
-      "occasions": [
-        "Work Anniversaries",
-        "Corporate Events",
-        "Rewards & Recognition"
-      ]
-    },
-    {
-      "id": "MTSWtK0pz0",
-      "slug": "cambria-compact-t-shirts-2",
-      "name": "Cambria Compact T-Shirts",
-      "tagline": "A team favourite: practical t-shirts built for daily reliability.",
-      "price": 788,
-      "images": [
-        "https://picsum.photos/seed/apparel-t-shirts-1-0/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-1-1/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-1-2/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-1-3/700/700"
-      ],
-      "description": "A team favourite: practical t-shirts built for daily reliability. The Cambria Compact T-Shirts is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "T-Shirts",
-        "Material": "Food-Grade Silicone",
-        "Customization": "Logo branding available",
+        "Material": "Polyester Blend",
+        "Customization": "Logo printing available",
         "MOQ": "50 units",
-        "Lead Time": "7\u201310 business days"
-      },
-      "occasions": [
-        "Corporate Events",
-        "Conferences"
-      ]
-    },
-    {
-      "id": "mTmie8ZfV7",
-      "slug": "windermere-signature-t-shirts-3",
-      "name": "Windermere Signature T-Shirts",
-      "tagline": "Thoughtfully finished t-shirts that feels as good as it looks.",
-      "price": 2385,
-      "images": [
-        "https://picsum.photos/seed/apparel-t-shirts-2-0/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-2-1/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-2-2/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-2-3/700/700"
-      ],
-      "description": "Thoughtfully finished t-shirts that feels as good as it looks. The Windermere Signature T-Shirts is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "T-Shirts",
-        "Material": "Anodized Aluminium",
-        "Customization": "Logo branding available",
-        "MOQ": "100 units",
         "Lead Time": "10\u201314 business days"
       },
       "occasions": [
-        "Work Anniversaries",
-        "Corporate Events",
-        "Conferences"
+        "Corporate Events"
       ]
     },
     {
-      "id": "SWzGl4x-qf",
-      "slug": "trueline-premium-t-shirts-4",
-      "name": "Trueline Premium T-Shirts",
-      "tagline": "Everyday t-shirts, elevated \u2014 perfect for gifting at scale.",
-      "price": 4472,
+      "id": "f44c7e6c-1927-4190-b1c7-4fb2bb0daef5",
+      "slug": "crestline-cotton-crew-neck-t-shirt",
+      "name": "Crestline Cotton Crew-Neck T-Shirt",
+      "tagline": "A breathable cotton tee for casual team days.",
+      "price": 399,
       "images": [
-        "https://picsum.photos/seed/apparel-t-shirts-3-0/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-3-1/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-3-2/700/700",
-        "https://picsum.photos/seed/apparel-t-shirts-3-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/13385fb7b370248b12a788990cd25291558929ba-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Everyday t-shirts, elevated \u2014 perfect for gifting at scale. The Trueline Premium T-Shirts is a popular pick for corporate apparel programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A breathable 100% cotton crew-neck t-shirt for casual team days and events. Logo printing is available for bulk orders.",
       "specs": {
         "Category": "T-Shirts",
-        "Material": "Cotton Blend",
-        "Customization": "Logo branding available",
-        "MOQ": "250 units",
-        "Lead Time": "2\u20133 weeks"
+        "Material": "100% Cotton",
+        "Customization": "Logo printing available",
+        "MOQ": "50 units",
+        "Lead Time": "10\u201314 business days"
       },
       "occasions": [
         "Corporate Events",
-        "Festivals",
-        "Conferences"
+        "Product Launches"
       ]
     }
   ]

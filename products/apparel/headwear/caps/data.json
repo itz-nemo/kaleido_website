@@ -7,104 +7,45 @@
   "leafSlug": "caps",
   "products": [
     {
-      "id": "xuJxOrH97i",
-      "slug": "meridian-everyday-caps-1",
-      "name": "Meridian Everyday Caps",
-      "tagline": "Caps, done right \u2014 dependable quality for corporate gifting and everyday use.",
-      "price": 423,
+      "id": "13e67d5d-b40f-4839-bb10-8c607f7f3d3e",
+      "slug": "nova-structured-cap",
+      "name": "Nova Structured Cap",
+      "tagline": "A structured six-panel cap with an embroidered front panel.",
+      "price": 329,
       "images": [
-        "https://picsum.photos/seed/apparel-caps-0-0/700/700",
-        "https://picsum.photos/seed/apparel-caps-0-1/700/700",
-        "https://picsum.photos/seed/apparel-caps-0-2/700/700",
-        "https://picsum.photos/seed/apparel-caps-0-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/18bface5b28e12b1e6f3af141bfad5e81f109c51-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Caps, done right \u2014 dependable quality for corporate gifting and everyday use. The Meridian Everyday Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "A structured six-panel cap with a flat embroidered front panel \u2014 a sharper, more polished option for team branding.",
       "specs": {
         "Category": "Caps",
-        "Material": "Bamboo & Wood",
-        "Customization": "Logo branding available",
-        "MOQ": "25 units",
-        "Lead Time": "5\u20137 business days"
-      },
-      "occasions": [
-        "Work Anniversaries",
-        "Rewards & Recognition"
-      ]
-    },
-    {
-      "id": "G0swghj8ci",
-      "slug": "everline-premium-caps-2",
-      "name": "Everline Premium Caps",
-      "tagline": "A team favourite: practical caps built for daily reliability.",
-      "price": 516,
-      "images": [
-        "https://picsum.photos/seed/apparel-caps-1-0/700/700",
-        "https://picsum.photos/seed/apparel-caps-1-1/700/700",
-        "https://picsum.photos/seed/apparel-caps-1-2/700/700",
-        "https://picsum.photos/seed/apparel-caps-1-3/700/700"
-      ],
-      "description": "A team favourite: practical caps built for daily reliability. The Everline Premium Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Caps",
-        "Material": "Anodized Aluminium",
-        "Customization": "Logo branding available",
+        "Material": "Cotton Twill",
+        "Customization": "Logo embroidery available",
         "MOQ": "50 units",
-        "Lead Time": "7\u201310 business days"
+        "Lead Time": "10\u201314 business days"
       },
       "occasions": [
-        "Rewards & Recognition",
-        "Work Anniversaries",
-        "Festivals"
+        "Corporate Events"
       ]
     },
     {
-      "id": "QAoDKyn9Sh",
-      "slug": "bellwood-deluxe-caps-3",
-      "name": "Bellwood Deluxe Caps",
-      "tagline": "Thoughtfully finished caps that feels as good as it looks.",
-      "price": 1290,
+      "id": "65a7bac1-900e-4bdb-82d1-30693213064f",
+      "slug": "meridian-cotton-baseball-cap",
+      "name": "Meridian Cotton Baseball Cap",
+      "tagline": "An adjustable cotton cap for outdoor team events.",
+      "price": 279,
       "images": [
-        "https://picsum.photos/seed/apparel-caps-2-0/700/700",
-        "https://picsum.photos/seed/apparel-caps-2-1/700/700",
-        "https://picsum.photos/seed/apparel-caps-2-2/700/700",
-        "https://picsum.photos/seed/apparel-caps-2-3/700/700"
+        "https://cdn.sanity.io/images/yr0rqbpl/production/a7c8988c30d030b33cb848e71c7d278f0dbf2883-1408x768.jpg?w=700&h=700&fit=crop"
       ],
-      "description": "Thoughtfully finished caps that feels as good as it looks. The Bellwood Deluxe Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
+      "description": "An adjustable cotton twill baseball cap, a practical branded item for outdoor team events and site visits.",
       "specs": {
         "Category": "Caps",
-        "Material": "Stainless Steel",
-        "Customization": "Logo branding available",
-        "MOQ": "100 units",
+        "Material": "Cotton Twill",
+        "Customization": "Logo embroidery available",
+        "MOQ": "50 units",
         "Lead Time": "10\u201314 business days"
       },
       "occasions": [
         "Corporate Events",
-        "Birthdays",
-        "Rewards & Recognition"
-      ]
-    },
-    {
-      "id": "nKlP2FBABX",
-      "slug": "northfield-classic-caps-4",
-      "name": "Northfield Classic Caps",
-      "tagline": "Everyday caps, elevated \u2014 perfect for gifting at scale.",
-      "price": 2565,
-      "images": [
-        "https://picsum.photos/seed/apparel-caps-3-0/700/700",
-        "https://picsum.photos/seed/apparel-caps-3-1/700/700",
-        "https://picsum.photos/seed/apparel-caps-3-2/700/700",
-        "https://picsum.photos/seed/apparel-caps-3-3/700/700"
-      ],
-      "description": "Everyday caps, elevated \u2014 perfect for gifting at scale. The Northfield Classic Caps is a popular pick for headwear programs and everyday apparel gifting. Finished to a consistent quality standard and built for reliable performance, it's designed for corporate gifting, welcome kits and bulk procurement at scale \u2014 with logo branding and packaging customization available on request.",
-      "specs": {
-        "Category": "Caps",
-        "Material": "Anodized Aluminium",
-        "Customization": "Logo branding available",
-        "MOQ": "250 units",
-        "Lead Time": "2\u20133 weeks"
-      },
-      "occasions": [
-        "Rewards & Recognition",
         "Festivals"
       ]
     }
