@@ -126,6 +126,7 @@
     font-family:var(--label); font-size:9.5px; letter-spacing:0.16em;
     text-transform:uppercase; color:var(--grey); font-weight:500;
   }
+  .tag-accent{ color:var(--brass-soft); }
   nav.primary{ display:flex; align-items:center; gap:24px; }
   nav.primary a{
     font-size:14px; font-weight:400; color:var(--ink);

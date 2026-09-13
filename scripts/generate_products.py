@@ -14,6 +14,8 @@ import hashlib, base64, json, os, re, shutil, urllib.request, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_BASE = "/kaleido_website"  # GitHub Pages project-site prefix
+SITE_URL = "https://itz-nemo.github.io" + SITE_BASE  # absolute origin, for OG/Twitter share tags
+OG_IMAGE = f"{SITE_URL}/assets/img/brand-icon.png"
 
 # ---------------------------------------------------------------- slugify --
 def slugify(text):
@@ -264,7 +266,7 @@ def nav_html():
         <img class="brand-icon" src="{SITE_BASE}/assets/img/brand-icon.png" alt="Kaleido mark">
         KALEIDO
       </span>
-      <span class="tag">Multiple Categories. One Platform.</span>
+      <span class="tag">Solutions That Source. <span class="tag-accent">Gifts That Connect.</span></span>
     </a>
     <nav class="primary">
       {MEGA_MENU}
@@ -282,26 +284,26 @@ def nav_html():
       <span></span><span></span><span></span>
     </button>
   </div>
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="{SITE_BASE}/products.html">Products</a>
-    <a href="{SITE_BASE}/index.html#solutions">Make It Yours</a>
-    <a href="{SITE_BASE}/index.html#process">How It Works</a>
-    <a href="{SITE_BASE}/index.html#clients">Clients</a>
-    <a href="{SITE_BASE}/index.html#about">About Us</a>
-    <a href="{SITE_BASE}/blog.html">Blog</a>
-    <div class="mobile-ctas">
-      <a href="{SITE_BASE}/products.html" class="btn btn-ghost">Explore Products</a>
-      <a href="{SITE_BASE}/index.html#connect" class="btn btn-dark">Connect With Us</a>
-    </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="{SITE_BASE}/products.html">Products</a>
+  <a href="{SITE_BASE}/index.html#solutions">Make It Yours</a>
+  <a href="{SITE_BASE}/index.html#process">How It Works</a>
+  <a href="{SITE_BASE}/index.html#clients">Clients</a>
+  <a href="{SITE_BASE}/index.html#about">About Us</a>
+  <a href="{SITE_BASE}/blog.html">Blog</a>
+  <div class="mobile-ctas">
+    <a href="{SITE_BASE}/products.html" class="btn btn-ghost">Explore Products</a>
+    <a href="{SITE_BASE}/index.html#connect" class="btn btn-dark">Connect With Us</a>
   </div>
-</header>'''
+</div>'''
 
 def footer_html():
     return f'''<footer id="about">
   <div class="footer-top">
     <div class="footer-brand">
       <div class="mark">KALEIDO</div>
-      <div class="tag">Multiple Categories. One Platform.</div>
+      <div class="tag">Solutions That Source. <span class="tag-accent">Gifts That Connect.</span></div>
       <p class="desc">Connecting requirements to products, manufacturers and supply capabilities.</p>
     </div>
     <div class="footer-col">
@@ -368,6 +370,17 @@ def page_shell(title, description, body, extra_script=""):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{description}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kaleido">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{description}">
+<meta property="og:image" content="{OG_IMAGE}">
+<meta property="og:image:width" content="320">
+<meta property="og:image:height" content="306">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{description}">
+<meta name="twitter:image" content="{OG_IMAGE}">
 {FONT_LINKS}
 </head>
 <body>
