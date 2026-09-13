@@ -3,10 +3,18 @@
 Kept up to date at the end of every session so a new session can start with minimal context. This is a living summary — overwritten, not appended to.
 
 ## Current focus
-Building out the **Products** side of the site (mostly done — see gaps below) plus a new **Blog** section. Homepage content/copy otherwise stable and out of scope unless explicitly requested (nav/footer/colour/font are shared sitewide so those do get touched).
+Migrating the site's backend from "hardcoded Python dict" to **Sanity CMS**, so products can be entered manually at scale (thousands) without touching code. Taxonomy (categories/subcategories/leaves) is now seeded in Sanity; the static-site generator does not yet read from it (see "Sanity CMS" section and Known gaps). Homepage content/copy otherwise stable and out of scope unless explicitly requested (nav/footer/colour/font are shared sitewide so those do get touched).
 
 ## Live site
-https://itz-nemo.github.io/kaleido_website/ — plain static HTML/CSS/JS, hosted free on GitHub Pages (public repo). No build step; `.nojekyll` is present so GitHub Pages serves files as-is.
+- **Frontend**: https://super-bunny-5b6249.netlify.app/ — Netlify, auto-deploys on every push to `main` on GitHub (`itz-nemo/kaleido_website`). Netlify site defaults to "Private" for new projects — already switched to Public in Site settings, should stay that way.
+- GitHub Pages (https://itz-nemo.github.io/kaleido_website/) still exists as a fallback but Netlify is now the primary target going forward.
+- Plain static HTML/CSS/JS, generated at author-time by the Python scripts below (no server-side build step yet — see "Next candidates" for the planned Sanity-fetch build step).
+
+## Sanity CMS
+- **Project**: "Kaleido", org "Kaleido", projectId `yr0rqbpl`, dataset `production` (public — no auth needed to read). Studio lives in `studio/` in this repo (own `package.json`/`node_modules`, gitignored deps). Run locally with `npm run dev` inside `studio/` (serves at localhost:3333 by default — use the default port, other ports aren't in the project's allowed CORS origins yet).
+- **Schema** (`studio/schemaTypes/`): `category` → `subcategory` → `leaf` (product type, e.g. "Pens") → `product`, connected by `reference` fields, mirroring the site's existing `products/<category>/<subcategory>/<leaf>/` URL hierarchy exactly. Slugs use a custom `slugify()` (`studio/schemaTypes/lib/slugify.ts`) that's a byte-for-byte port of `slugify()` in `generate_products.py`, so anything entered in Sanity produces the same URL scheme the static site already uses. `product.occasions` reuses the same 8-tag list as the nav mega-menu (`studio/schemaTypes/lib/occasions.ts`, kept in sync by hand with `OCCASIONS` in `generate_products.py`).
+- **Taxonomy seeded**: all 9 categories, 51 subcategories, and 212 leaves from the existing `TAXONOMY` dict were migrated into Sanity via the Sanity MCP server (`create_documents`/`publish_documents`/`query_documents` tools), matching names and slugs exactly (verified by count and spot-checked GROQ queries). This was a one-time migration, not a repeatable script — if the taxonomy needs to change again, edit it directly in Sanity Studio (categories/subcategories/leaves), not in `generate_products.py`'s `TAXONOMY` dict, since Sanity is now the source of truth for structure. **No `product` documents exist yet** — those are meant to be entered manually in Studio going forward, thousands of them, per the user's stated approach (manual entry, not bulk import).
+- **Sanity MCP**: authenticated for this Claude Code project (OAuth, account: Nimish Tiwari / github). Gives direct `create_documents`/`query_documents`/`publish_documents`/`get_schema` etc. access without needing a manually-issued API token. Rate limiting note: bulk `create_documents` calls above ~100 items reliably throw a few "Too Many Requests" failures per batch — check the per-item `success` field in the response and retry just the failed ones (don't assume "N documents processed" means all succeeded).
 
 ## What exists today
 - `index.html` — homepage (white + LinkedIn-blue theme).
@@ -41,13 +49,16 @@ https://itz-nemo.github.io/kaleido_website/ — plain static HTML/CSS/JS, hosted
 - Verification method: no persistent browser available by default — use `python3 -m http.server` from `/Users/nemo/Desktop` (one level above the repo) so root-relative `/kaleido_website/...` paths resolve exactly like production, then `curl -o /dev/null -w "%{http_code}"` per file. Chrome browser tools (`mcp__claude-in-chrome__*`) were available and used for real visual verification in the session that built this — use them again if available.
 
 ## Known gaps / not done yet
+- **The live site does not read from Sanity at all yet.** `generate_products.py` still generates all 484 product pages from the hardcoded `TAXONOMY` dict + random `gen_products()` data — Sanity and the static site are two disconnected sources of truth right now until the fetch layer (next candidate below) is built.
+- No `product` documents in Sanity yet — only the taxonomy scaffolding (category/subcategory/leaf). Manual product entry hasn't started.
 - Occasion mega-menu links (Employee Onboarding, Work Anniversaries, etc.) all point to `products.html` — no dedicated occasion-filtered pages exist.
-- All product data is placeholder/random — no real product catalog, pricing, or images yet.
 - No search functionality actually wired up (the search bar on subcategory pages is UI-only, `onsubmit="return false"`).
 - No contact/inquiry form yet — "Enquire Now" and "Connect With Us" CTAs still just deep-link to `index.html#connect`, which itself has no working form.
 - Mobile nav does not expose the mega-menu categories (by design, kept simple) — mobile users can still reach `products.html` via the flat "Products" link.
 
 ## Next candidates (not yet started, not yet requested)
-- Wire an actual contact/inquiry form.
-- Real product data/catalog once available (would replace `data.json` placeholders).
-- Decide CMS vs. custom admin, ordering flow (inquiry vs. checkout) — still open per `README.md`.
+- **Build the Sanity → static-site fetch layer**: update `generate_products.py` (or a new script) to pull categories/subcategories/leaves/products from Sanity via GROQ instead of `TAXONOMY`/`gen_products()`, so real entered products actually appear on the live site.
+- **Wire a Netlify deploy hook**: so publishing a product in Sanity Studio triggers a rebuild automatically, instead of someone having to manually re-run the generator and `git push`.
+- Start manual product entry in Sanity Studio against the seeded taxonomy.
+- Wire an actual contact/inquiry form (Netlify Functions would fit well alongside the Netlify move).
+- Decide ordering flow (inquiry vs. checkout) — still open per `README.md`.

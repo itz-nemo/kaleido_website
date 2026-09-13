@@ -1,0 +1,120 @@
+import {defineField, defineType} from 'sanity'
+import {PackageIcon} from '@sanity/icons/Package'
+import {slugify} from './lib/slugify'
+import {OCCASIONS} from './lib/occasions'
+
+export const product = defineType({
+  name: 'product',
+  title: 'Product',
+  type: 'document',
+  icon: PackageIcon,
+  groups: [
+    {name: 'content', title: 'Content', default: true},
+    {name: 'specs', title: 'Specs'},
+  ],
+  fields: [
+    defineField({
+      name: 'name',
+      title: 'Name',
+      type: 'string',
+      description: 'e.g. "Marlow Premium Pens"',
+      group: 'content',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      description: 'Used in the product detail URL.',
+      group: 'content',
+      options: {source: 'name', slugify, maxLength: 96},
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'leaf',
+      title: 'Product Type',
+      type: 'reference',
+      to: [{type: 'leaf'}],
+      group: 'content',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'tagline',
+      title: 'Tagline',
+      type: 'string',
+      description: 'One line shown under the name on product cards.',
+      group: 'content',
+      validation: (rule) => rule.required().max(140),
+    }),
+    defineField({
+      name: 'price',
+      title: 'Price (₹)',
+      type: 'number',
+      group: 'content',
+      validation: (rule) => rule.required().positive(),
+    }),
+    defineField({
+      name: 'images',
+      title: 'Images',
+      type: 'array',
+      group: 'content',
+      of: [{type: 'image', options: {hotspot: true}}],
+      description: 'First image is used on cards/listings; the product page shows all of them as a gallery.',
+      validation: (rule) => rule.required().min(1).max(8),
+    }),
+    defineField({
+      name: 'description',
+      title: 'Description',
+      type: 'text',
+      rows: 5,
+      group: 'content',
+      description: 'Shown on the product detail page below the price.',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: 'occasions',
+      title: 'Occasions',
+      type: 'array',
+      group: 'content',
+      description: 'Which use-cases this product should show up under on the leaf page’s occasion filter.',
+      of: [{type: 'string'}],
+      options: {list: OCCASIONS, layout: 'grid'},
+      validation: (rule) => rule.required().min(1),
+    }),
+    defineField({
+      name: 'material',
+      title: 'Material',
+      type: 'string',
+      group: 'specs',
+    }),
+    defineField({
+      name: 'customization',
+      title: 'Customization',
+      type: 'string',
+      group: 'specs',
+      initialValue: 'Logo branding available',
+    }),
+    defineField({
+      name: 'moq',
+      title: 'MOQ',
+      type: 'string',
+      description: 'e.g. "50 units"',
+      group: 'specs',
+    }),
+    defineField({
+      name: 'leadTime',
+      title: 'Lead Time',
+      type: 'string',
+      description: 'e.g. "7–10 business days"',
+      group: 'specs',
+    }),
+  ],
+  preview: {
+    select: {title: 'name', subtitle: 'leaf.name', media: 'images.0'},
+    prepare: ({title, subtitle, media}) => ({
+      title,
+      subtitle: subtitle ? `${subtitle}` : 'No product type set',
+      media,
+    }),
+  },
+})
