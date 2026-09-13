@@ -155,7 +155,7 @@
   .btn-light:hover{ background:var(--brass-soft); }
   .btn-sm{ padding:10px 20px; font-size:12.5px; }
 
-  .hamburger{ display:none; flex-direction:column; gap:5px; width:26px; }
+  .hamburger{ display:none; flex-direction:column; gap:5px; width:26px; flex-shrink:0; }
   .hamburger span{ height:1.5px; background:var(--ink); display:block; transition:all .3s ease; }
   .mobile-menu{
     position:fixed; inset:0 0 0 0; top:64px; background:var(--white); z-index:99;
@@ -529,8 +529,8 @@
   @media (max-width:900px){ .footer-top{ grid-template-columns:1fr 1fr; } }
   @media (max-width:560px){ .footer-top{ grid-template-columns:1fr; } }
 
-  @media (max-width:900px){
-    nav.primary, .nav-ctas .btn-ghost{ display:none; }
+  @media (max-width:1150px){
+    nav.primary, .nav-ctas{ display:none; }
     .hamburger{ display:flex; }
   }
   @media (max-width:1080px){
