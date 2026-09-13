@@ -14,12 +14,17 @@ Shares nav/footer/page-shell with the products generator so the two stay in
 sync automatically — this is a thin, separate script rather than folding into
 generate_products.py because a blog post isn't part of the product taxonomy.
 """
-import os, re
-from generate_products import SITE_BASE, ROOT, page_shell, breadcrumb, write, slugify
+import os, re, json, html as html_lib, urllib.request, urllib.parse
+from datetime import datetime
+from generate_products import (
+    SITE_BASE, ROOT, page_shell, breadcrumb, write, slugify,
+    SANITY_PROJECT_ID, SANITY_DATASET, SANITY_API_VERSION,
+)
 
 # ---------------------------------------------------------------- content --
-# All content here is placeholder/dummy, written for this site — no real posts yet.
-BLOG_POSTS = [
+# Used only as a fallback if Sanity has no published posts yet (see
+# fetch_sanity_posts() below) — kept so the blog never goes blank.
+BLOG_POSTS_PLACEHOLDER = [
     {
         "slug": "sourcing-not-catalogue",
         "featured": True,
@@ -120,6 +125,90 @@ BLOG_POSTS = [
     },
 ]
 
+# ---------------------------------------------------------------- Sanity fetch --
+def mark_span(text, marks):
+    text = html_lib.escape(text)
+    for m in marks or []:
+        if m == "strong":
+            text = f"<strong>{text}</strong>"
+        elif m == "em":
+            text = f"<em>{text}</em>"
+    return text
+
+def blocks_to_sections(blocks):
+    """Converts a Portable Text array (Sanity's `body` field) into the same
+    [(heading, html), ...] shape the placeholder posts above use, so every
+    downstream template works unchanged regardless of where a post came from."""
+    sections, heading, html_parts, bullets = [], None, [], []
+
+    def flush_bullets():
+        if bullets:
+            html_parts.append("<ul>" + "".join(f"<li>{b}</li>" for b in bullets) + "</ul>")
+            bullets.clear()
+
+    def flush_section():
+        if heading is not None:
+            sections.append((heading, "".join(html_parts)))
+        html_parts.clear()
+
+    for b in blocks or []:
+        if b.get("_type") != "block":
+            continue
+        text = "".join(mark_span(s.get("text", ""), s.get("marks")) for s in b.get("children", []) if s.get("_type") == "span")
+        if b.get("style") == "h2":
+            flush_bullets()
+            flush_section()
+            heading = text
+        elif b.get("listItem") == "bullet":
+            bullets.append(text)
+        else:
+            flush_bullets()
+            html_parts.append(f"<p>{text}</p>")
+    flush_bullets()
+    flush_section()
+    return sections
+
+def fetch_sanity_posts():
+    query = '''*[_type == "post"] | order(publishedDate desc){
+      "slug": slug.current, title, excerpt, tldr, category, author, readMinutes, featured, body,
+      "date": publishedDate,
+      "coverImage": coverImage.asset->url
+    }'''
+    url = (f"https://{SANITY_PROJECT_ID}.api.sanity.io/v{SANITY_API_VERSION}"
+           f"/data/query/{SANITY_DATASET}?query={urllib.parse.quote(query)}")
+    try:
+        with urllib.request.urlopen(url, timeout=15) as resp:
+            results = json.loads(resp.read()).get("result", [])
+    except Exception as e:
+        print(f"Note: couldn't fetch posts from Sanity ({e}); using placeholder blog posts.")
+        return None
+    if not results:
+        return None
+    posts = []
+    for r in results:
+        try:
+            date_label = datetime.strptime(r["date"], "%Y-%m-%d").strftime("%B %-d, %Y")
+        except Exception:
+            date_label = r["date"]
+        posts.append({
+            "slug": r["slug"], "featured": bool(r.get("featured")), "category": r["category"],
+            "read_min": r["readMinutes"], "date": date_label, "title": r["title"],
+            "excerpt": r["excerpt"], "author": r.get("author") or "Kaleido Team",
+            "cover_image": r.get("coverImage"), "tldr": r["tldr"],
+            "sections": blocks_to_sections(r.get("body")),
+        })
+    if not any(p["featured"] for p in posts):
+        posts[0]["featured"] = True
+    return posts
+
+BLOG_POSTS = fetch_sanity_posts() or BLOG_POSTS_PLACEHOLDER
+
+def post_image_url(post, w, h):
+    cover = post.get("cover_image")
+    if cover:
+        return f"{cover}?w={w}&h={h}&fit=crop"
+    return f"https://picsum.photos/seed/{post.get('image_seed', 'kaleido-blog-fallback')}/{w}/{h}"
+
 
 def read_time_label(mins):
     return f"{mins} MIN READ"
@@ -141,7 +230,7 @@ def author_initials(name):
 def render_post_card(post, featured_badge=False):
     heading_tag = "h3" if featured_badge else "h4"
     return f'''<a class="post-card" href="{post_url(post['slug'])}">
-      <div class="post-card-media"><img src="https://picsum.photos/seed/{post['image_seed']}/700/560" alt="{post['title']}" loading="lazy"></div>
+      <div class="post-card-media"><img src="{post_image_url(post, 700, 560)}" alt="{post['title']}" loading="lazy"></div>
       <div class="post-card-body">
         <div class="post-meta">{read_time_label(post['read_min'])}<span class="sep">•</span>{post['date'].upper()}</div>
         <{heading_tag}>{post['title']}</{heading_tag}>
@@ -163,7 +252,7 @@ def build_blog_index():
     filter_chips += [f'<button class="price-tab" data-cat-filter="{slugify(c)}">{c}</button>' for c in categories]
 
     featured_block = f'''<a class="featured-post" href="{post_url(featured['slug'])}" data-cat="{slugify(featured['category'])}">
-      <div class="featured-post-media"><img src="https://picsum.photos/seed/{featured['image_seed']}/900/700" alt="{featured['title']}" loading="lazy"></div>
+      <div class="featured-post-media"><img src="{post_image_url(featured, 900, 700)}" alt="{featured['title']}" loading="lazy"></div>
       <div class="featured-post-body">
         <span class="featured-tag">Featured</span>
         <div class="post-meta">{read_time_label(featured['read_min'])}<span class="sep">•</span>{featured['date'].upper()}</div>
@@ -251,7 +340,7 @@ def build_post_page(post):
         <div class="post-dates">{read_time_label(post['read_min'])} &middot; {post['date']}</div>
         <div class="post-author"><span class="author-avatar">{author_initials(post['author'])}</span>{post['author']}</div>
       </div>
-      <div class="post-hero-media reveal"><img src="https://picsum.photos/seed/{post['image_seed']}/900/700" alt="{post['title']}" loading="lazy"></div>
+      <div class="post-hero-media reveal"><img src="{post_image_url(post, 900, 700)}" alt="{post['title']}" loading="lazy"></div>
     </div>
   </div>
 </section>

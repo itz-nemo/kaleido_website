@@ -1,8 +1,8 @@
 import type {StructureResolver} from 'sanity/structure'
 
-// Lists the 4 document types in taxonomy order (Category -> Subcategory ->
-// Leaf -> Product) instead of the default alphabetical order, since that's
-// the order you'll actually work through when entering a new product.
+// Lists document types in the order you'd actually work through them:
+// Category -> Subcategory -> Leaf -> Product for the catalogue, then Blog
+// Posts as a separate section — instead of the default alphabetical order.
 export const structure: StructureResolver = (S) =>
   S.list()
     .title('Kaleido Content')
@@ -11,4 +11,6 @@ export const structure: StructureResolver = (S) =>
       S.documentTypeListItem('subcategory').title('Subcategories'),
       S.documentTypeListItem('leaf').title('Leaves (Product Types)'),
       S.documentTypeListItem('product').title('Products'),
+      S.divider(),
+      S.documentTypeListItem('post').title('Blog Posts'),
     ])
