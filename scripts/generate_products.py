@@ -344,6 +344,8 @@ def footer_html():
         <li><a href="{SITE_BASE}/index.html#about">About Us</a></li>
         <li><a href="{SITE_BASE}/index.html#clients">Clients &amp; Testimonials</a></li>
         <li><a href="{SITE_BASE}/blog.html">Insights</a></li>
+        <li><a href="{SITE_BASE}/team.html">Team</a></li>
+        <li><a href="{SITE_BASE}/careers.html">Careers</a></li>
         <li><a href="{SITE_BASE}/index.html#connect">Contact</a></li>
         <li><a href="{SITE_BASE}/index.html#connect">Become a Partner</a></li>
       </ul>
